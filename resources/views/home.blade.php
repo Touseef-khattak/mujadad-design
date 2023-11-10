@@ -16,11 +16,51 @@
                 </div>
             </div>
         </div>
-        <div class=mujadad_hone_text>MUJADAD <span style="color: #EB7700;">.</span></div>
+        <div class=mujadad_hone_text>MUJADAD <span style="color: #FF7D59;">.</span></div>
     </section>
-    
-       
-     
+
+    <section class="work-1-hp py-3">
+        <div class="container">
+            <h1>Work</h1>
+            <div class="bg-work">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-flex flex-column justify-content-around h-100 px-4 text-block-work">
+                            <h5>Hilal Investment</h5>
+                            <h2>Making Halal <br> Investments <br>easy . . .</h2>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="img-block-work">
+                            <img src="{{asset('assets/images/home/work-1-halal.png')}}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="work-2-hp my-5">
+        <div class="container">
+            <div class="bg-work">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-flex text-light flex-column justify-content-around h-100 px-4 text-block-work">
+                            <h5>WoW Health</h5>
+                            <h2>The Future of <br> Affordable and Accessible  <br>Health Services</h2>
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <div class="img-block-work">
+                            <img src="{{asset('assets/images/home/work-2-wow.png')}}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
 @endsection
 @section('footer_scripts')
