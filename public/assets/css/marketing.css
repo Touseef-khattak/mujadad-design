@@ -1,0 +1,179 @@
+body{
+    background-color: #FFF !important;
+}
+*{
+    color: #000 !important;
+}
+section#mar_sec_1{
+    background: #FFF url('../images/marketing/Shining_cube.png');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 700px;
+    padding: 200px 0px;
+    overflow: hidden;
+}
+section#mar_sec_1 .des_main_lin{
+    position: absolute;
+    width: 600px;
+}
+section#mar_sec_1 h1,
+section#mar_sec_1 h1 b{
+    color: #000;
+    font-size: 84px ;
+}
+section#mar_sec_1 h1 .animate_border:after{
+    margin-top: 50px;
+    transition: 1s ease-in-out;
+}
+
+/*@keyframes animatedBackground {*/
+/*    0% { background-position: -200px 0; }*/
+/*    100% { background-position: 0 0; }*/
+/*}*/
+/*@-moz-keyframes animatedBackground {*/
+/*    0% { background-position: -200px 0; }*/
+/*    100% { background-position: 0 0; }*/
+/*}*/
+/*@-webkit-keyframes animatedBackground {*/
+/*    0% { background-position: -200px 0; }*/
+/*    100% { background-position: 0 0; }*/
+/*}*/
+/*@-ms-keyframes animatedBackground {*/
+/*    0% { background-position: -200px 0; }*/
+/*    100% { background-position: 0 0; }*/
+/*}*/
+/*@-o-keyframes animatedBackground {*/
+/*    0% { background-position: -200px 0; }*/
+/*    100% { background-position: 0 0; }*/
+/*}*/
+#mar_Sec_2{
+    background: #FFF url('../images/marketing/Rectangle.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0px 0px 100px;
+    background-position-y: -30px;
+}
+#mar_Sec_2 .row{
+    height: fit-content;
+    margin: 50px 0px;
+}
+#mar_Sec_2 .row:first-child{
+    height: 530px;
+}
+.img_content{
+    width: 580px;
+}
+.img_social_media{
+    width: 504px;
+}
+.img_development{
+    width: 575px;
+}
+.img_seo{
+    height: 511px;
+}
+#mar_Sec_2 img.des_sec_2_images.position-relative{
+    z-index: 10;
+}
+#mar_Sec_2 img.des_sec_2_images.position-absolute{
+    z-index: 9;
+}
+#mar_Sec_2 .row img.arrow_1{
+    width: 300px;
+    left: -40px;
+    bottom: -100%;
+    transform: rotate(-5deg);
+}
+#mar_Sec_2 .row img.arrow_2{
+    right: -60px;
+    bottom: -110%;
+    width: 500px;
+}
+#mar_Sec_2 .row img.arrow_3{
+    bottom: -85%;
+    left: -20px;
+    width: 270px;
+}
+#mar_Sec_2_para{
+    display: flex;
+}
+#mar_Sec_2 > div > div:nth-child(1) h2{
+    margin-top: -100px;
+}
+#faqs{
+    padding-top: 50px !important;
+}
+
+@media only screen and (min-width: 1540px) {
+    #mar_Sec_2{
+        background-position-y: 0px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1200px) {
+    .img_content,
+    .img_social_media,
+    .img_development,
+    .img_seo{
+        max-width: 100%;
+    }
+    #mar_Sec_2 .row img.arrow_2 {
+        right: -35px;
+        bottom: -125%;
+        width: 400px;
+        height: 900px;
+    }
+    #mar_Sec_2 .row img.arrow_1 {
+        width: 270px;
+        left: -40px;
+        bottom: -88%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    section#mar_sec_1{
+        background: #FFF;
+        padding: 130px 0px 20px;
+        height: fit-content;
+    }
+    section#mar_sec_1 h1,
+    section#mar_sec_1 h1 b{
+        font-size: 40px !important;
+    }
+    section#mar_sec_1 h1 b{
+        display: inline;
+    }
+    section#mar_sec_1 h1 .animate_border:after {
+        margin: unset;
+        width: 80%;
+    }
+    #mar_Sec_2{
+        background: #FFF url('../images/marketing/Responsive_Rectangle.png');
+        background-size: contain;
+        padding-top: 70px;
+        background-repeat: no-repeat;
+        background-position-x: 0px;
+        background-position-y: 180px;
+
+    }
+    #mar_Sec_2 .row,
+    #mar_Sec_2 .row:first-child{
+        height: fit-content;
+        margin: 20px 0px;
+    }
+    #mar_Sec_2 > div > div:nth-child(1) h2{
+        margin-top: unset;
+    }
+    .img_content,
+    .img_social_media,
+    .img_development,
+    .img_seo{
+        width: 100%;
+        margin: 40px auto;
+    }
+    .img_seo{
+        height: auto;
+    }
+
+}

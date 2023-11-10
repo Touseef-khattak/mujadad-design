@@ -13,9 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('home', function () {
+    // $data['page_title'] = "Home - safehorizon";
+    return view('home');
+});
+
 Route::get('/', function () {
     return view('index');
 });
 Route::get('example', function () {
     return view('case-1');
 });
+// Route::get('home', function () {
+//     return view('home');
+// });
