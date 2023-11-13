@@ -5,7 +5,7 @@ body{
 #case_sec_1 {
     padding-top: 150px;
     padding-bottom: 50px;
-    background: #ffffff;    
+    background: #ffffff;
 }
 .content-sec3 {
     width: 70%;
@@ -35,7 +35,7 @@ body{
 
 .bg-mark {
     background-image: url('../images/case-1/bg-marked.png');
-    
+
     background-repeat: no-repeat;
     background-size: contain;
     padding-right: 100px;
@@ -68,9 +68,38 @@ body{
     letter-spacing: -0.005px;
     margin: 0;
 }
+.box-of-dos {
+    width: 128px;
+    height: 128px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.satoshi-img {
+    background-image: url('../images/case-1/satoshi-img.png');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.bg-typo-boxes > div {
+    border-radius: 20px;
+    width: 100%;
+}
+
+.bg-typo-boxes.up-box {
+    height: 63%;
+}
+.bg-typo-boxes.low-box {
+    height: 35%;
+    margin-top: 10px;
+}
 
 @media (min-width: 600px) and (max-width: 1220px) {
-   
+
 }
 @media only screen and (max-width: 600px) {
 
