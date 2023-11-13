@@ -2,7 +2,7 @@
 <link href="{{asset('assets/css/case-1.css')}}" rel="stylesheet"/>
 <link href="{{asset('assets/slick/slick.css')}}" rel="stylesheet"/>
 @section('content')
-    
+
     <section id="case_sec_1" class="my-5" data-cursor-white="true">
         <div class="container">
             <div class="row">
@@ -31,13 +31,13 @@
         </div>
     </section>
 
-    <section>
+    <div>
         <div class="container">
             <hr>
             <p class="py-3 m-0">Product Design</p>
             <hr>
         </div>
-    </section>
+    </div>
 
     <section class="sec2-case1 py-3">
         <div class="container">
@@ -50,10 +50,10 @@
     <section class="sec3-case1 my-5">
         <div class="container">
             <div class="content-sec3">
-                <h2>Identify and eliminate design and architecture
+                <h1>Identify and eliminate design and architecture
                     issues and improve user experience to win new customers
-                </h2>
-                <p>Wow Health is a healthcare product from the United States. 
+                </h1>
+                <p>Wow Health is a healthcare product from the United States.
                     They started developing it in 2018, but they didn't pay enough
                     attention to how easy it is for people to use and how it looks.
                     It's a tool that helps doctors, nurses, and assistants book medical appointments,
@@ -121,7 +121,7 @@
     </section>
 
     <section class="sec4-case1">
-        <div class="container"><h2>Process</h2></div>
+        <div class="container"><h1>Process</h1></div>
         <div class="row">
             <div class="col-4" style="background-color: #519C660D;">
                 <div class="first_Proc py-4">
@@ -137,9 +137,9 @@
                     <h4>Phase 2</h4>
                     <div class="d-flex justify-content-center flex-wrap">
                         <div class="my-3 process-style"><p>User Flows</p></div>
-                        <div class="my-3 process-style mx-2"><p> Design</p></div> 
+                        <div class="my-3 process-style mx-2"><p> Design</p></div>
                         <div class="my-3 process-style"><p>Architecture</p></div>
-                    
+
                         <div class="my-3 process-style"><p>Prototyping & Test</p></div>
                     </div>
                 </div>
@@ -157,6 +157,110 @@
         </div>
     </section>
 
+    <section class="sec5-case1 my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                   <h1>Feature Prioritization</h1>
+                    <p>We thoroughly assessed which features to include and which ones to skip.
+                       We employed the MoSCoW prioritization model to categorize features into "Must dos" and "Would-love-to dos.</p>
+                </div>
+            </div>
+            <div class="row my-4 p-5" style="background-color: #FAFAFA;">
+                <div class="col-lg-5">
+                    <h2>Must dos</h2>
+                    <div class="row">
+                        <div class="col-4"><div class="box-of-dos" style="background-color: #FFD966">Navigation</div></div>
+                        <div class="col-4"><div class="box-of-dos" style="background-color: #FFAFA3">Advocates/Brokers Page</div></div>
+                        <div class="col-4"><div class="box-of-dos" style="background-color: #75D7F0">New Pages (VUC +Teletherapy+  Healthsharing+ Homepage)</div></div>
+                        <div class="col-4 mt-4"><div class="box-of-dos" style="background-color: #85E0A3">Signup Flow
+                                (Mandatory to buy  the membership)</div></div>
+                        <div class="col-4 mt-4"><div class="box-of-dos" style="background-color: #75D7F0">WoW Plus Page (Merge Healthsharing with other packages)</div></div>
+                        <div class="col-4 mt-4"><div class="box-of-dos" style="background-color: #AFBCCF">Current Flows</div></div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-1">
+                    <h2>Would-love to dos</h2>
+                    <div class="row">
+                        <div class="col-4"><div class="box-of-dos" style="background-color: #FFD966">Typography Changes
+                                (Font)</div></div>
+                        <div class="col-4"><div class="box-of-dos" style="background-color: #FFAFA3">Layout Possibly (Homepage)</div></div>
+                        <div class="col-4"><div class="box-of-dos" style="background-color: #75D7F0">Clean and simple design</div></div>
+                        <div class="col-4 mt-4"><div class="box-of-dos" style="background-color: #85E0A3">Nice icons, with different colors</div></div>
+                        <div class="col-4 mt-4"><div class="box-of-dos" style="background-color: #75D7F0">Less dense paragraph with minimum possible content</div></div>
+                        <div class="col-4 mt-4"><div class="box-of-dos" style="background-color: #AFBCCF">Dashboard with all users data and services</div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="user-flows-wireFrames">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <h1>User Flows</h1>
+                    <p>After the finalizing the Information Architecture, we moved on to carving out a
+                       simplified the process of creating and managing agreements. Along with the
+                       additional features of creating and managing individual entities.</p>
+                </div>
+            </div>
+            <div class="img-user-flows w-100 mb-3">
+                <img src="{{asset('assets/images/case-1/user-flow-img.png')}}" alt="User Flow">
+            </div>
+
+            <div class="my-5">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h1>Wireframes</h1>
+                        <p>The wireframes were created using combination of user research and feedback from the stakeholders</p>
+                    </div>
+                </div>
+                <div class="img-user-flows w-100 my-2">
+                    <img src="{{asset('assets/images/case-1/wireframes.png')}}" alt="User Flow">
+                </div>
+            </div>
+
+            <div class="my-5">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <h1>Design system</h1>
+                    </div>
+                </div>
+                <div class="img-user-flows w-100 my-2">
+                    <img src="{{asset('assets/images/case-1/design-system.png')}}" alt="User Flow">
+                </div>
+            </div>
+
+            <div class="my-5">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <h1>Color & Typography</h1>
+                        <p>The Persian Rose color and a clean sans-serif typeface for establishes a professional, simple aesthetic for the
+                            product and ensures a pleasant feeling to the user.</p>
+                    </div>
+                </div>
+                <div class="blocks-color-typo w-100 my-2">
+                    <div class="row h-100 py-5">
+                        <div class="col-lg-6">
+                            <div class="satoshi-img">
+
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row h-100">
+                                <div class="col-6 bg-typo-boxes up-box"><div class="p-4 h-100" style="background-color: #FAFAFA; border: 1px solid rgba(0, 0, 0, 0.10);"><h5>#FAFAFA</h5></div></div>
+                                <div class="col-6 bg-typo-boxes up-box"><div class="p-4 h-100" style="background-color: #FB8F3F"><h5 class="text-light">#FB8F3F</h5></div></div>
+                                <div class="col-6 bg-typo-boxes low-box"><div class="p-4 h-100" style="background-color: #FFA868"><h5 class="text-light">#FFA868</h5></div></div>
+                                <div class="col-6 bg-typo-boxes low-box"><div class="p-4 h-100" style="background-color: #191919"><h5 class="text-light">#191919</h5></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 @endsection
 
@@ -164,8 +268,8 @@
     <script src="{{asset('assets/slick/slick.js')}}"></script>
     <script>
         $(document).ready(function () {
-        
-            
+
+
         })
     </script>
 @endsection
