@@ -1,0 +1,32 @@
+#error_container{
+    background: #FFF;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.error_img{
+    background-image: url("../images/error/state_1.png");
+    height: 157px;
+    width: 410px;
+    margin: 30px auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    animation:  1.2s animateSectionBackground infinite;
+}
+#error_container h2{
+    font-size: 42px;
+    line-height: 20px;
+    font-weight: 400;
+}
+@keyframes animateSectionBackground {
+    00%, 05% { background-image: url("../images/error/state_1.png"); }
+    06%, 10% { background-image: url("../images/error/state_2.png"); }
+    11%, 15% { background-image: url("../images/error/state_3.png"); }
+    16%, 20% { background-image: url("../images/error/state_4.png"); }
+    21%, 25% { background-image: url("../images/error/state_5.png"); }
+    26%, 30% { background-image: url("../images/error/state_6.png"); }
+    31%, 100% { background-image: url("../images/error/state_1.png"); }
+}

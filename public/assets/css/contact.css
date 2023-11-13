@@ -1,0 +1,370 @@
+#Contact-form{
+    padding: 200px 0px 100px;
+}
+#Contact-form h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #181818;
+}
+#Contact-form p.primary-para{
+    font-size: 24px;
+    color: #181818;
+}
+#Contact-form p.primary-para.interest_para{
+    font-family: 'Whyte';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 140%;
+    color: #7A7A7A;
+}
+.purpose_container{
+    display: flex;
+    gap: 24px;
+}
+input[type="radio"],input[type="checkbox"] {
+    display: none;
+}
+.purpose_radio {
+    box-sizing: border-box;
+    padding: 0px 30px;
+    margin: 20px 0px;
+    width: fit-content;
+    height: 72px;
+    background: #FFFFFF;
+    border: 1px solid #d0d0d0;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Whyte';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #181818;
+    transition: 0.2s;
+}
+input[type="radio"]:checked + .purpose_radio,
+input[type="checkbox"]:checked + .purpose_radio {
+    background: #000;
+    color: #FFF;
+    transition: 0s;
+}
+input[type="radio"]:not(checked):hover + .purpose_radio,
+input[type="checkbox"]:not(checked):hover + .purpose_radio {
+    background: #d0d0d0;
+}
+input[type="radio"]:checked:hover + .purpose_radio,
+input[type="checkbox"]:checked:hover + .purpose_radio {
+    background: #000;
+    color: #FFF;
+    transition: 0s;
+}
+.purpose_radio {
+    animation-name: reverse;
+    animation-duration: 0.4s;
+}
+.purpose_radio.hover_animate{
+    animation-name: myanimation;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes myanimation {
+    from {
+        border: 1px solid transparent;
+        background: #d0d0d0;
+    }
+    to {
+        border: 1px solid #FF0000;
+        background: transparent;
+    }
+}
+
+@keyframes reverse {
+    from {
+        border: 1px solid #FF0000;
+        background: #d0d0d0;
+    }
+    to {
+        border: 1px solid transparent;
+        background: #d0d0d0;
+    }
+}
+
+
+textarea:focus,
+input:focus {
+    outline: 0;
+}
+/* Question */
+
+input.question,
+textarea.question {
+    height: 70px;
+    font-family: 'Whyte';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    margin: 0;
+    border: none;
+    width: 80%;
+    background: rgba(0, 0, 0, 0);
+    transition: padding-top 0.2s ease, margin-top 0.2s ease;
+    overflow-x: hidden; /* Hack to make "rows" attribute apply in Firefox. */
+}
+textarea.question {
+    height: auto;
+    resize: none;
+}
+/* Underline and Placeholder */
+
+input.question + label,
+textarea.question + label {
+    display: block;
+    position: relative;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0;
+    width: 0px;
+    border-top: 1px solid #000;
+    -webkit-transition: width 0.4s ease;
+    transition: width 0.4s ease;
+    height: 0px;
+}
+#comments_div textarea.question + label{
+    position: unset !important;
+}
+#comments_div textarea.question + label > span{
+    top: 20px;
+    left: unset;
+}
+input.question:focus + label,
+textarea.question:focus + label {
+    width: 80%;
+}
+
+input.question:focus,
+input.question:valid {
+    padding-top: 35px;
+}
+
+textarea.question:valid,
+textarea.question:focus {
+    margin-top: 35px;
+}
+
+input.question:focus + label > span,
+input.question:valid + label > span {
+    top: -50px;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+textarea.question:focus + label > span,
+textarea.question:valid + label > span {
+    top: -80px;
+    font-size: 13px;
+}
+
+input.question:valid + label,
+textarea.question:valid + label {
+    border-color: #000;
+}
+
+input.question:invalid,
+textarea.question:invalid {
+    box-shadow: none;
+}
+
+input.question + label > span,
+textarea.question + label > span {
+    font-family: 'Whyte';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    margin: 0;
+    position: absolute;
+    color: rgba(92, 92, 92, 0.5);
+    top: -40px;
+    left: 0px;
+    z-index: -1;
+    -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+    transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+}
+p.error{
+    display: none;
+    font-family: 'Whyte';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 8px;
+    leading-trim: both;
+    color: #DF2E2E;
+}
+p.error img{
+    margin-left: 10px;
+}
+
+#selected_file{
+    margin-top: 40px;
+    width: 500px;
+    height: 75px;
+    background: #FFFFFF;
+    border: 2px solid #101010;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#selected_file .file_name{
+    font-size: 16px;
+    color: #2C2C2C;
+}
+#selected_file .file_size{
+    color: #101010BF;
+}
+#selected_file .file_remove_btn{
+    background: transparent;
+    border: none;
+}
+.budget_label{
+    font-family: 'Whyte';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: rgba(92, 92, 92, 0.5);
+}
+
+@-webkit-keyframes appear {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes appear {
+    100% {
+        opacity: 1;
+    }
+}
+.file_upload_container input{
+    display: none;
+}
+.file_upload_container .primary-para{
+    font-size: 24px;
+    color: #000;
+}
+.file_upload_container .animate_border:after,
+#success a.animate_border:after{
+    background: #000;
+}
+form .red_btn{
+    width: 250px;
+    height: 70px;
+    margin: 50px 0px;
+    filter: drop-shadow(0px 40px 70px rgba(225, 56, 56, 0.2));
+    border-radius: 30px;
+}
+.error_para{
+    font-family: 'Whyte';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color:#FF0000;
+}
+#success{
+    padding: 150px 0px 300px;
+    display: none;
+}
+#success .secondary-heading{
+    font-size: 84px;
+    color: #000;
+}
+#success .primary-para{
+    font-size: 24px;
+    color: #000;
+    margin: 30px 0px;
+}
+#success a{
+    font-family: 'Whyte';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #181818;
+    margin-top: 70px;
+}
+.myLoader{
+    position: relative;
+    pointer-events: none;
+}
+.myLoader::after {
+    content: ' ';
+    position: absolute;
+    right: 45%;
+    top: 28%;
+    border: 3px solid #FF0000;
+    border-top: 3px solid transparent;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spinLoader 1s linear infinite;
+}
+.myLoader::before {
+    content: ' ';
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    border-radius: 30px;
+}
+@keyframes spinLoader {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+@media only screen and (max-width: 567px) {
+    #Contact-form{
+        padding: 100px 0px;
+    }
+    #Contact-form h2{
+        font-size: 28px;
+    }
+    #Contact-form p.primary-para{
+        font-size: 14px;
+    }
+    .purpose_container{
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .purpose_radio {
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+    #success {
+        padding: 200px 0px;
+    }
+    p.error{
+        font-size: 13px;
+    }
+    #selected_file{
+        margin-top: 20px;
+        width: 100%;
+        height: 50px;
+    }
+    #selected_file .file_name{
+        font-size: 13px;
+    }
+
+}
+

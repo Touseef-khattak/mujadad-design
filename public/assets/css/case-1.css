@@ -1,0 +1,78 @@
+body{
+    background: #fff !important;
+}
+
+#case_sec_1 {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background: #ffffff;    
+}
+.content-sec3 {
+    width: 70%;
+}
+
+.img-team {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding-top: 3.75px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    margin-right: 8px;
+}
+.mem-3 > img {
+    border-radius: 50%;
+}
+.mem-1 {
+    background: var(--Blue, #C5ECFD);
+}
+.mem-2 , .mem-3{
+    background: var(--Rose, #FFC7D6);
+}
+.mem-4 {
+    background: var(--gray, #D7D7D9);}
+
+.bg-mark {
+    background-image: url('../images/case-1/bg-marked.png');
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-right: 100px;
+}
+.first_Proc {
+    max-width: 370px;
+    margin-left: auto;
+}
+
+.sec4-case1 {
+    overflow-x: hidden;
+}
+.process-style {
+    display: inline-flex;
+    padding: 18.433px 16px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 18.433px;
+    border: 2.304px solid #000;
+    background: #FFF;
+}
+.process-style > p {
+    color: #000;
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.005px;
+    margin: 0;
+}
+
+@media (min-width: 600px) and (max-width: 1220px) {
+   
+}
+@media only screen and (max-width: 600px) {
+
+}
+
