@@ -1,7 +1,7 @@
 <div class="navbar-container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light flex-column">
         <div class="container-fluid mb-md-4 p-md-0">
-          
+
             <!-- <button class="navbar-toggler" type="button">
                 <div id="nav-icon">
                     <span></span>
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <a class="nav-link" href="{{('home')}}">Mujadad</a>
-                    <a class="nav-link" href="{{('about')}}">About me</a>
+                    <a class="nav-link" href="{{('about-me')}}">About me</a>
                     <a class="nav-link" href="{{('portfolio')}}">Resume</a>
                     <a class="nav-link" href="{{('about')}}">linkedin</a>
                     <!-- <a href="{{('contact')}}" class="btn red_btn">TALK TO US</a> -->
