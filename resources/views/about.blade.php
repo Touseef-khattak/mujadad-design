@@ -25,6 +25,7 @@
     <section class="get-touch text-center my-5">
         <h5 class="tag-line">Get in touch</h5>
         <h2>shahzebkh@outlook.com</h2>
+
     </section>
 
 
