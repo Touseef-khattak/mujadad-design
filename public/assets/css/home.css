@@ -1,14 +1,12 @@
 body{
     background: #fff !important;
 }
-*{
-
-}
-#hp_sec_1{
-    padding-top: 150px;
-    padding-bottom: 150px;
-    background: #ffffff;
-    min-height: 900px;
+ 
+#hp_sec_1 {
+        padding-top: 150px;
+        padding-bottom: 30px;
+        background: #ffffff;
+        min-height: 750px;
 }
 .mujadad_hone_text {
     margin-top: -20px;
@@ -25,14 +23,31 @@ body{
 
 .work-1-hp .bg-work {
     background-color: #fafafa;
-    border-radius: 20px;
+    border-radius: 25px;
 }
+
+.hilal-tag{
+    color: var(--heading-text, #0D1320);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.88px;
+} 
+
 .img-block-work{
     overflow: hidden;
-    max-height: 680px;
+    max-height: 710px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.work-1-hp .secondary-heading {
+    width: 500px;
 }
 .work-1-hp .img-block-work img{
     margin-top: -230px;
+    
 }
 
 
@@ -40,6 +55,35 @@ body{
     background-color: var(--primary-red);
     border-radius: 20px;
 }
+.work-2-hp h2 {
+    font-weight: 500;
+}
+.work-2-hp .secondary-heading {
+    width: 500px;
+}
+.wow-home-img {
+    margin-left: -60px;
+}
+
+
+
+
+.work-3-hp h2 {
+    font-weight: 500;
+    width: 55%;
+    margin: 20px auto;
+}
+.work-3-hp h5 {
+    margin-top: 48px;
+}
+.work-3-hp .bg-work {
+    background: #722ED1;
+    border-radius: 25px;
+}
+.work-3-hp .amal-home-img {
+    width: 80%;
+}
+
 
 @media (min-width: 600px) and (max-width: 1220px) {
     #hp_sec_2 .service_card {

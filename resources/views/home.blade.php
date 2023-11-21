@@ -5,14 +5,12 @@
     <section data-scroll-section  id="hp_sec_1" class="h-100 mb-5" data-cursor-white="true">
         <div class="container">
             <div class="row">
-            <div class="col-md-6">
-                    <h1 class="primary-heading main_heading_animate pe-3" data-scroll data-scroll-speed="1">
-                        UI/UX<br/>
+            <div class="col-12">
+                    <h1 class="primary-heading main_heading_animate pe-3 text-center" data-scroll data-scroll-speed="1">
+                        User Experience<br/>
                         Designer
                     </h1>
-                    <p class="sub-heading">Currently Based in UAE</p>
-                </div>
-                <div class="col-md-6">
+                    <p class="sub-heading fw-100 text-center">Currently Based in UAE</p>
                 </div>
             </div>
         </div>
@@ -21,37 +19,58 @@
 
     <section class="work-1-hp py-3">
         <div class="container">
-            <h1>Work</h1>
+            <h1 class="primary-heading mt-lg-5">Selected Work</h1>
             <div class="bg-work">
                 <div class="row">
-                    <div class="col-4">
-                        <div class="d-flex flex-column justify-content-around h-100 px-4 text-block-work">
-                            <h5>Hilal Investment</h5>
-                            <h2>Making Halal <br> Investments <br>easy . . .</h2>
+                    <div class="col-12 col-lg-4">
+                        <div class="d-flex flex-column justify-content-around h-100 px-4 px-lg-5 text-block-work">
+                            <p class="hilal-tag">Hilal Investment</h5>
+                            <h2 class="secondary-heading">Making Halal <br> Investments <br>easy . . .</h2>
                         </div>
                     </div>
-                    <div class="col-8">
+                    <div class="col-12 col-lg-8">
                         <div class="img-block-work">
-                            <img src="{{asset('assets/images/home/work-1-halal.png')}}" alt="">
+                            <img class="hilal-home-img" src="{{asset('assets/images/home/work-1-halal.png')}}" alt="work image">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    
     <section class="work-2-hp my-5">
         <div class="container">
             <div class="bg-work">
                 <div class="row">
-                    <div class="col-4">
-                        <div class="d-flex text-light flex-column justify-content-around h-100 px-4 text-block-work">
-                            <h5>WoW Health</h5>
-                            <h2>The Future of <br> Affordable and Accessible  <br>Health Services</h2>
+                    <div class="col-12 col-lg-4">
+                        <div class="d-flex text-light flex-column justify-content-around h-100 px-4 ps-lg-5 text-block-work">
+                            <h5 class="hilal-tag text-light">WoW Health</h5>
+                            <h2 class="secondary-heading">The Future of <br> Affordable and Accessible  <br>Health Services</h2>
                         </div>
                     </div>
-                    <div class="col-8">
+                    <div class="col-12 col-lg-8">
                         <div class="img-block-work">
-                            <img src="{{asset('assets/images/home/work-2-wow.png')}}" alt="">
+                            <img class="wow-home-img" src="{{asset('assets/images/home/work-2-wow.png')}}" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work-3-hp my-5 text-center">
+        <div class="container">
+            <div class="bg-work">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex text-light flex-column justify-content-around h-100 px-4 ps-lg-5 text-block-work">
+                            <h5 class="hilal-tag text-light">AMAL</h5>
+                            <h2 class="secondary-heading">Cost-effective cancer diagnosis utilizing artificial intelligence</h2>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="img-block-work">
+                            <img class="amal-home-img" src="{{asset('assets/images/home/work-3-amal.png')}}" alt="amal">
                         </div>
                     </div>
                 </div>
