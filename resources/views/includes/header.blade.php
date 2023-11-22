@@ -1,5 +1,5 @@
 <div class="navbar-container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light flex-column">
+    <nav class="navbar navbar-expand-lg navbar-light flex-column">
         <div class="container-fluid mb-md-4 p-md-0">
 
             <!-- <button class="navbar-toggler" type="button">
@@ -33,7 +33,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="nav-link" href="{{('home')}}">Mujadad</a>
+                    <a class="nav-link" href="{{('home')}}">Mujadad.</a>
                     <a class="nav-link" href="{{('about-me')}}">About me</a>
                     <a class="nav-link" href="{{('portfolio')}}">Resume</a>
                     <a class="nav-link" href="{{('about')}}">linkedin</a>

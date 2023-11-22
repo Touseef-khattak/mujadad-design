@@ -258,7 +258,39 @@
                     </div>
                 </div>
             </div>
+            
+            
+            <div class="my-5 py-4">
+                <div class="blocks-color-typo w-100 my-2">
+                    <div class="row h-100 py-5">
+                        <div class="col-lg-6 h-100">
+                            <div class="mobile-side">
+                                <div class="mobile-img">
+                                </div>
+                                <p class="text-center p-5">A well developed menu section was necessary to help the user engagement.</p>
+                            </div>
+                        </div>
+                    
+                        <div class="col-lg-6 h-100">
+                            <div class="web-img text-end">
+                                <img src="{{asset('assets/images/case-1/Case list view 1.png')}}" alt=" web case">
+                            </div>
+                            <p class="text-center p-5">A comprehensive Dashboard layout for healthcare benefits and services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-3rd-last my-5"></div>
+            <div class="bg-2nd-last my-5"></div>
+            
+
+
         </div>
+    </section>
+
+    <section class="">
+        <div class="bg-last my-5"></div>
     </section>
 
 
