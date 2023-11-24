@@ -2,7 +2,7 @@
 <link href="{{asset('assets/css/home.css')}}" rel="stylesheet"/>
 <link href="{{asset('assets/slick/slick.css')}}" rel="stylesheet"/>
 @section('content')
-    <section data-scroll-section  id="hp_sec_1" class="h-100 mb-5" data-cursor-white="true">
+    <section data-scroll-section  id="hp_sec_1" class="mb-5" data-cursor-white="true">
         <div class="container">
             <div class="row">
             <div class="col-12">
@@ -19,13 +19,13 @@
 
     <section class="work-1-hp py-3">
         <div class="container">
-            <h1 class="primary-heading mt-lg-5">Selected Work</h1>
+            <h1 class="primary-heading mt-lg-5 mb-5 mb-lg-0">Selected Work</h1>
             <div class="bg-work">
                 <div class="row">
                     <div class="col-12 col-lg-4">
-                        <div class="d-flex flex-column justify-content-around h-100 px-4 px-lg-5 text-block-work">
+                        <div class="d-flex flex-column justify-content-around h-100 px-4 px-lg-5 py-3 py-lg-0 text-block-work">
                             <p class="hilal-tag">Hilal Investment</h5>
-                            <h2 class="secondary-heading">Making Halal <br> Investments <br>easy . . .</h2>
+                            <h2 class="secondary-heading mb-4">Making Halal Investments easy . . .</h2>
                         </div>
                     </div>
                     <div class="col-12 col-lg-8">
@@ -44,7 +44,7 @@
                 <div class="row">
                     <div class="col-12 col-lg-4">
                         <div class="d-flex text-light flex-column justify-content-around h-100 px-4 ps-lg-5 text-block-work">
-                            <h5 class="hilal-tag text-light">WoW Health</h5>
+                            <h5 class="hilal-tag text-light my-4 my-lg-0">WoW Health</h5>
                             <h2 class="secondary-heading">The Future of <br> Affordable and Accessible  <br>Health Services</h2>
                         </div>
                     </div>

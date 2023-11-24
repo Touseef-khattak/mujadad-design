@@ -1,3 +1,6 @@
 #about-sec-1 {
     margin-top: 200px;
 }
+#about-sec-1 .img-box img {
+    width: 100%;
+}

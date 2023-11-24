@@ -26,9 +26,7 @@
 <!-- end::Body -->
 <body  class="">
 @include('includes.header')
-<div id="preloader">
-    <div id="status">&nbsp;</div>
-</div>
+
 @yield('content')
     <!-- end:: Body -->
     <!-- begin::Footer -->
