@@ -24,6 +24,9 @@ Route::get('/', function () {
 Route::get('case-1', function () {
     return view('case-1');
 });
+Route::get('case-2', function () {
+    return view('case-2');
+});
 Route::get('about-me', function () {
     return view('about');
 });
