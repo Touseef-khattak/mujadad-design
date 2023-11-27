@@ -27,6 +27,9 @@ Route::get('case-1', function () {
 Route::get('case-2', function () {
     return view('case-2');
 });
+Route::get('hilal-audit', function () {
+    return view('case-2-audit');
+});
 Route::get('about-me', function () {
     return view('about');
 });
