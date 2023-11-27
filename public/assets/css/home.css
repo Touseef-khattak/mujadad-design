@@ -24,7 +24,14 @@
     background-color: #fafafa;
     border-radius: 25px;
 }
-
+.bg-work {
+    position: relative;
+}
+.route-to-work {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 .hilal-tag{
     color: var(--heading-text, #0D1320);
     font-family: Inter;

@@ -21,6 +21,7 @@
         <div class="container">
             <h1 class="primary-heading mt-lg-5 mb-5 mb-lg-0">Selected Work</h1>
             <div class="bg-work">
+                <a class="route-to-work" href="{{url('case-1')}}"></a>
                 <div class="row">
                     <div class="col-12 col-lg-4">
                         <div class="d-flex flex-column justify-content-around h-100 px-4 px-lg-5 py-3 py-lg-0 text-block-work">
@@ -41,6 +42,7 @@
     <section class="work-2-hp my-5">
         <div class="container">
             <div class="bg-work">
+            <a class="route-to-work" href="{{url('case-2')}}"></a>
                 <div class="row">
                     <div class="col-12 col-lg-4">
                         <div class="d-flex text-light flex-column justify-content-around h-100 px-4 ps-lg-5 text-block-work">
