@@ -1,3 +1,37 @@
 .step-overlay {
     mix-blend-mode: luminosity;
 }
+.sec-bg-grey {
+    background: linear-gradient(0deg, #FAFAFA 0%, rgba(255, 255, 255, 0.00) 73.07%);
+}
+.cards-relevent {
+    width: 398px;
+}
+.mobile-img-1 {
+    background-image: url('../images/hilal/meezan-cash-fund.png');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mobile-img-2 {
+    background-image: url('../images/hilal/mobile-rotated.png');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.head-All-new {
+    max-width: 500px ;
+    margin: 50px auto;
+}
+.bg-financial {
+    background-image: url('../images/hilal/financial-system.png');
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

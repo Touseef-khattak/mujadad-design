@@ -118,14 +118,16 @@
 
     <section class="user-flows-wireFrames">
         <div class="container">
+            
             <div class="row">
                 <div class="col-12 col-lg-7">
                     <h1>IA & User Flows</h1>
                     <p>After our research we analyze our data created new IA and user flows for the application.</p>
                 </div>
             </div>
+
             <div class="img-user-flows w-100 mb-3">
-                <img src="{{asset('assets/images/hilal/user-flow.png')}}" alt="User Flow">
+                <img class="w-100" src="{{asset('assets/images/hilal/user-flow.png')}}" alt="User Flow">
             </div>
 
             <div class="my-5">
@@ -136,7 +138,7 @@
                     </div>
                 </div>
                 <div class="img-user-flows w-100 my-2">
-                    <img src="{{asset('assets/images/hilal/wireframes.png')}}" alt="User Flow">
+                    <img class="w-100" src="{{asset('assets/images/hilal/wireframes.png')}}" alt="User Flow">
                 </div>
             </div>
 
@@ -149,70 +151,173 @@
                     </div>
                 </div>
                 <div class="img-user-flows w-100 my-2">
-                    <img src="{{asset('assets/images/hilal/design-system.png')}}" alt="User Flow">
+                    <img class="w-100" src="{{asset('assets/images/hilal/design-system.png')}}" alt="User Flow">
                 </div>
             </div>
 
-            <div class="my-5">
-                <div class="row">
-                    <div class="col-12 col-lg-8">
-                        <h1>Color & Typography</h1>
-                        <p>The Persian Rose color and a clean sans-serif typeface for establishes a professional, simple aesthetic for the
-                            product and ensures a pleasant feeling to the user.</p>
-                    </div>
-                </div>
-                <div class="blocks-color-typo w-100 my-2">
-                    <div class="row h-100 py-5">
-                        <div class="col-lg-6">
-                            <div class="satoshi-img">
-
+            <div class="sec-bg-grey">
+                <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="d-flex align-items-center p-3 h-100">
+                                    <p>We've completely redesigned it to focus on what's important, making it easy for first-time users to see main actions, popular funds, and how to verify their accounts. Making it more visually appealing.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="w-100" src="{{asset('assets/images/hilal/Iphone-14-6.png')}}" alt="">
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="row h-100">
-                                <div class="col-6 bg-typo-boxes up-box"><div class="p-4 h-100" style="background-color: #FAFAFA; border: 1px solid rgba(0, 0, 0, 0.10);"><h5>#FAFAFA</h5></div></div>
-                                <div class="col-6 bg-typo-boxes up-box"><div class="p-4 h-100" style="background-color: #FB8F3F"><h5 class="text-light">#FB8F3F</h5></div></div>
-                                <div class="col-6 bg-typo-boxes low-box"><div class="p-4 h-100" style="background-color: #FFA868"><h5 class="text-light">#FFA868</h5></div></div>
-                                <div class="col-6 bg-typo-boxes low-box"><div class="p-4 h-100" style="background-color: #191919"><h5 class="text-light">#191919</h5></div></div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-            
-            
+
+            <div class="my-5 pt-5">
+                <div class="d-flex justify-content-center">
+                        <div class="cards-relevent mx-4">
+                            <img src="{{asset('assets/images/hilal/relevance.png')}}" alt="relevant">
+                            <h3>Relevant Actions</h3>
+                            <p>Only the main action which the app is about is shown on the home screen for better navigation.</p>
+                        </div>
+                        <div class="cards-relevent mx-4">
+                            <img src="{{asset('assets/images/hilal/real-time.png')}}" alt="real-time">
+                            <h3>Real time status</h3>
+                            <p>Transactions are easier to understand. You can see in real-time if they're 
+                                waiting for approval from the bank.
+                                Plus, if a transaction gets rejected, you'll receive a notification.</p>
+                        </div>
+                </div>
+            </div>
+
             <div class="my-5 py-4">
-                <div class="blocks-color-typo w-100 my-2">
+                <div class="w-100 my-2">
                     <div class="row h-100 py-5">
                         <div class="col-lg-6 h-100">
                             <div class="mobile-side">
-                                <div class="mobile-img">
+                                <div class="mobile-img-1">
                                 </div>
-                                <p class="text-center p-5">A well developed menu section was necessary to help the user engagement.</p>
+                                <p class="text-center p-5">The display design prioritizes a clear, organized layout that enhances user comprehension.</p>
                             </div>
                         </div>
                     
                         <div class="col-lg-6 h-100">
-                            <div class="web-img text-end">
-                                <img src="{{asset('assets/images/case-1/Case list view 1.png')}}" alt=" web case">
+                            <div class="mobile-side">
+                                <div class="mobile-img-2">
+                                </div>
+                                <p class="text-center p-5">New onboarding screen are now much clear with customized illustrations</p>
                             </div>
-                            <p class="text-center p-5">A comprehensive Dashboard layout for healthcare benefits and services.</p>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="bg-3rd-last my-5"></div>
-            <div class="bg-2nd-last my-5"></div>
-            
+            <div class="my-5 py-5">
+                <div class="text-center head-All-new py-5">
+                        <h1><span style="color: #0D132080">All new</span>
+                          <br>Verification Process</h1>
+                          <p>The finishing touch involved transferring models to developers to ensure consistent design across both iOS and Android platforms.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center">
+                        <img class="" src="{{asset('assets/images/hilal/mobile-picture.png')}}" alt="">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-side d-flex flex-column justify-content-center h-100 px-4">
+                            <div class="streaming-para my-3">
+                                <p>
+                                    <strong>Streamlining</strong><br>
+                                    In response, we decided to streamline the process, enabling users to input data at their convenience, reducing cognitive load.                        
+                                </p>
+                            </div>
+                            <div class="streaming-para my-3">
+                                <p>
+                                    <strong>Minimal and Effective Design</strong><br>
+                                    We crafted a minimal and highly effective design for the process.                                </p>
+                            </div>
+                            <div class="streaming-para my-3">
+                                <p>
+                                    <strong>Increased Customer Retention</strong><br>
+                                        The streamlined approach led to increased customer retention. 
+                                </p>
+                            </div>
+                            <div class="streaming-para my-3">
+                                <p>
+                                <strong>Impressive Outcomes:</strong><br>
+                                As a result, we achieved an impressive milestone of 25,000 fulfilled applicants after implementing the update.                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
 
 
-        </div>
+            <div class="my-5 py-5">
+                <div class="text-center head-All-new py-5">
+                            <h1>More details for the user</h1>
+                            <p>The design will help user to get more details about the funds and their investments.</p>
+                </div>
+                <div class="row">
+                        <div class="col-md-6 text-center">
+                            <img class="" src="{{asset('assets/images/hilal/overview.png')}}" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-side d-flex flex-column justify-content-center h-100 px-4">
+                                <div class="streaming-para my-3">
+                                    <h3>Overview</h3>
+                                    <p>
+                                        Our step-by-step method let us scale the new design across all sections from transactions to goal planners
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="row my-5">
+                        <div class="col-md-6">
+                            <div class="text-side d-flex flex-column justify-content-center h-100 px-4">
+                                <div class="streaming-para my-3">
+                                    <h3>Real Time Transaction History</h3>
+                                    <p>Our step-by-step method let us scale the new design across all sections from transactions to goal planners                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <img class="" src="{{asset('assets/images/hilal/real-time-transaction.png')}}" alt="">
+                        </div>
+                </div>
+
+                <div class="row my-5">
+                        <div class="col-md-6 text-center">
+                            <img class="" src="{{asset('assets/images/hilal/real-time-transaction.png')}}" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-side d-flex flex-column justify-content-center h-100 px-4">
+                                <div class="streaming-para my-3">
+                                    <h3>Risk Level Calculator</h3>
+                                    <p>Our step-by-step method let us scale the new design across all sections from transactions to goal planners</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="">
+                <div class="row my-5 py-5">
+                    <div class="col-lg-7">
+                        <div class="head-All-new py-5">
+                                <h1><span style="color: #0D132080">Clear and Open </span>
+                                <br>Financial System</h1>
+                                <p>Moreover, the redesign strategy also incorporated a transparent system of tracking financial metrics.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-financial">
+
+            </div>
     </section>
 
-    <section class="">
-        <div class="bg-last my-5"></div>
-    </section>
+ 
 
 
 @endsection
