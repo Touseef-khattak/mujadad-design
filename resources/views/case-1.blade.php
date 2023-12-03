@@ -206,7 +206,7 @@
                 </div>
             </div>
             <div class="img-user-flows w-100 mb-3">
-                <img src="{{asset('assets/images/case-1/user-flow-img.png')}}" alt="User Flow">
+                <img class="w-100" src="{{asset('assets/images/case-1/user-flow-img.png')}}" alt="User Flow">
             </div>
 
             <div class="my-5">
@@ -217,7 +217,7 @@
                     </div>
                 </div>
                 <div class="img-user-flows w-100 my-2">
-                    <img src="{{asset('assets/images/case-1/wireframes.png')}}" alt="User Flow">
+                    <img class="w-100" src="{{asset('assets/images/case-1/wireframes.png')}}" alt="User Flow">
                 </div>
             </div>
 
@@ -228,7 +228,7 @@
                     </div>
                 </div>
                 <div class="img-user-flows w-100 my-2">
-                    <img src="{{asset('assets/images/case-1/design-system.png')}}" alt="User Flow">
+                    <img class="w-100" src="{{asset('assets/images/case-1/design-system.png')}}" alt="User Flow">
                 </div>
             </div>
 
@@ -273,7 +273,7 @@
                     
                         <div class="col-lg-6 h-100">
                             <div class="web-img text-end">
-                                <img src="{{asset('assets/images/case-1/Case list view 1.png')}}" alt=" web case">
+                                <img class="w-100" src="{{asset('assets/images/case-1/Case list view 1.png')}}" alt=" web case">
                             </div>
                             <p class="text-center p-5">A comprehensive Dashboard layout for healthcare benefits and services.</p>
                         </div>
