@@ -1,3 +1,27 @@
+.design-case2-process .secondary-heading-case {
+    display: flex;
+    width: 64px;
+    height: 64px;
+    padding: 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: #000;
+    color: #FAFAFA;
+    margin-bottom: 20px;
+}
+.primary-head-case {
+    color: #0D1320;
+    font-family: Space Grotesk;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
 .step-overlay {
     mix-blend-mode: luminosity;
 }
@@ -6,6 +30,10 @@
 }
 .cards-relevent {
     width: 398px;
+}
+
+.bg-mobile-side {
+    background: linear-gradient(0deg, #FAFAFA 0.35%, #FFF 30.73%);
 }
 .mobile-img-1 {
     background-image: url('../images/hilal/meezan-cash-fund.png');
@@ -23,15 +51,33 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.head-All-new {
-    max-width: 500px ;
-    margin: 50px auto;
-}
+
 .bg-financial {
     background-image: url('../images/hilal/financial-system.png');
     width: 100%;
-    height: 100%;
+    height: 1080px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.view-audit {
+    display: flex;
+    padding: 24px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #000;
+    color: #FFF;
+    font-family: Space Grotesk;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 75% */
+    width: fit-content;
+}
+.view-audit:hover {
+    color: #FFF;
 }
