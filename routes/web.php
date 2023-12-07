@@ -21,14 +21,14 @@ Route::get('home', function () {
 Route::get('/', function () {
     return view('home');
 });
-Route::get('case-1', function () {
-    return view('case-1');
-});
 Route::get('case-2', function () {
-    return view('case-2');
+    return view('wow');
+});
+Route::get('case-1', function () {
+    return view('hilal-invest');
 });
 Route::get('hilal-audit', function () {
-    return view('case-2-audit');
+    return view('hilal-invest-audit');
 });
 Route::get('about-me', function () {
     return view('about');

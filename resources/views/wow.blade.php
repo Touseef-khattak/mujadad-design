@@ -7,24 +7,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <h1 class="primary-heading main_heading_animate pe-3">
+                    <h1 class="main_heading pe-3">
                         WOW HEALTH
                     </h1>
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex flex-column align-items-end">
-                        <div class="d-flex align-items-start my-1">
-                            <p>Live Product</p>
-                            <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="">
-                        </div>
-                        <div class="d-flex align-items-start my-1">
-                            <p>Play Store</p>
-                            <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="">
-                        </div>
-                        <div class="d-flex align-items-start my-1">
-                            <p>App Store</p>
-                            <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="">
-                        </div>
+                        
+                            <a class="project-link d-flex align-items-start my-1" href=""><p>Live Product</p>
+                            <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
+                        
+                            <a class="project-link d-flex align-items-start my-1" href=""><p>Play Store</p>
+                            <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
+                        
+                            <a class="project-link d-flex align-items-start my-1" href=""><p>App Store</p>
+                            <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
+                        
                     </div>
                 </div>
             </div>
@@ -50,7 +48,7 @@
     <section class="sec3-case1 my-5">
         <div class="container">
             <div class="content-sec3">
-                <h1>Identify and eliminate design and architecture
+                <h1 class="secondary-heading-case">Identify and eliminate design and architecture
                     issues and improve user experience to win new customers
                 </h1>
                 <p>Wow Health is a healthcare product from the United States.
@@ -67,7 +65,7 @@
                     <div class="teams-role my-5">
                         <div class="row">
                             <div class="col-6">
-                                <h3>My Team</h3>
+                                <h2 class="secondary-heading-case">My Team</h2>
                                 <div class="d-flex">
                                     <div class="img-team mem-1">
                                         <img src="{{asset('assets/images/case-1/memoj-1.png')}}" alt="">
@@ -84,7 +82,7 @@
                                 </div>
                             </div>
                             <div class="col-6">
-                                <h3>My Role</h3>
+                                <h2 class="secondary-heading-case">My Role</h2>
                                 <p>I was a mid-level designer on the Tangent team, where I worked closely with engineers,
                                      stakeholders and the QA team to ensure the product's quality.</p>
                             </div>
@@ -92,7 +90,7 @@
                     </div>
 
                     <div class="project-goal pe-4">
-                        <h2>Project Goal
+                        <h2 class="secondary-heading-case">Project Goal
                         </h2>
                         <p class="">During the redesign, we talked a lot about
                              what needed to be done. We had many meetings to look at our
@@ -103,14 +101,14 @@
                             <div class="row">
                                 <div class="col-6">
                                     <div class="bg-mark">
-                                        <h2>1.</h2>
-                                        <h3>Enabling users to schedule <br> appointments immediately.</h3>
+                                        <h2 class="steps-head-count">1.</h2>
+                                        <h3 class="secondary-heading-case">Enabling users to schedule <br> appointments immediately.</h3>
                                         <p>Surface relevant actions & information to empower self-service in solving questions, managing problems and reducing customer support request.</p>
                                     </div>
                                 </div>
                                 <div class="col-6 pe-4">
-                                    <h2>2.</h2>
-                                    <h3>Creating a smooth and seamless overall user experience.</h3>
+                                    <h2 class="steps-head-count">2.</h2>
+                                    <h3 class="secondary-heading-case">Creating a smooth and seamless overall user experience.</h3>
                                     <p>Our primary goal was to enhance the user experience by enabling users to schedule appointments instantly, while also focusing on creating a smooth and seamless overall experience.</p>
                                 </div>
                             </div>
@@ -121,11 +119,11 @@
     </section>
 
     <section class="sec4-case1">
-        <div class="container"><h1>Process</h1></div>
+        <div class="container"><h1 class="secondary-heading-case">Process</h1></div>
         <div class="row">
             <div class="col-4" style="background-color: #519C660D;">
                 <div class="first_Proc py-4">
-                    <h4>Phase 1</h4>
+                    <h4 class="process-head">Phase 1</h4>
                     <div class="my-3 process-style"><p>Research</p></div>
                     <br>
                     <div class="my-3 process-style mx-4"><p>Analysis & Planning</p></div>
@@ -134,7 +132,7 @@
             </div>
             <div class="col-4" style="background-color: #FB8F3F33;">
                 <div class="p-4">
-                    <h4>Phase 2</h4>
+                    <h4 class="process-head">Phase 2</h4>
                     <div class="d-flex justify-content-center flex-wrap">
                         <div class="my-3 process-style"><p>User Flows</p></div>
                         <div class="my-3 process-style mx-2"><p> Design</p></div>
@@ -146,7 +144,7 @@
             </div>
             <div class="col-4" style="background-color: #6600660D;">
                 <div class="p-4">
-                    <h4>Phase 3</h4>
+                    <h4 class="process-head">Phase 3</h4>
                     <div class="">
                         <div class="my-3 process-style"><p>Launch</p></div>
                         <br>
@@ -161,14 +159,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-6">
-                   <h1>Feature Prioritization</h1>
+                   <h1 class="secondary-heading-case">Feature Prioritization</h1>
                     <p>We thoroughly assessed which features to include and which ones to skip.
                        We employed the MoSCoW prioritization model to categorize features into "Must dos" and "Would-love-to dos.</p>
                 </div>
             </div>
             <div class="row my-4 p-5" style="background-color: #FAFAFA;">
                 <div class="col-lg-5">
-                    <h2>Must dos</h2>
+                    <h2 class="feature-prior-h">Must dos</h2>
                     <div class="row">
                         <div class="col-4"><div class="box-of-dos" style="background-color: #FFD966">Navigation</div></div>
                         <div class="col-4"><div class="box-of-dos" style="background-color: #FFAFA3">Advocates/Brokers Page</div></div>
@@ -180,7 +178,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 offset-1">
-                    <h2>Would-love to dos</h2>
+                    <h2 class="feature-prior-h">Would-love to dos</h2>
                     <div class="row">
                         <div class="col-4"><div class="box-of-dos" style="background-color: #FFD966">Typography Changes
                                 (Font)</div></div>
@@ -199,7 +197,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-lg-7">
-                    <h1>User Flows</h1>
+                    <h1 class="secondary-heading-case">User Flows</h1>
                     <p>After the finalizing the Information Architecture, we moved on to carving out a
                        simplified the process of creating and managing agreements. Along with the
                        additional features of creating and managing individual entities.</p>
@@ -212,7 +210,7 @@
             <div class="my-5">
                 <div class="row">
                     <div class="col-12 col-lg-6">
-                        <h1>Wireframes</h1>
+                        <h1 class="secondary-heading-case">Wireframes</h1>
                         <p>The wireframes were created using combination of user research and feedback from the stakeholders</p>
                     </div>
                 </div>
@@ -224,7 +222,7 @@
             <div class="my-5">
                 <div class="row">
                     <div class="col-12 col-lg-6">
-                        <h1>Design system</h1>
+                        <h1 class="secondary-heading-case">Design system</h1>
                     </div>
                 </div>
                 <div class="img-user-flows w-100 my-2">
@@ -235,7 +233,7 @@
             <div class="my-5">
                 <div class="row">
                     <div class="col-12 col-lg-8">
-                        <h1>Color & Typography</h1>
+                        <h1 class="secondary-heading-case">Color & Typography</h1>
                         <p>The Persian Rose color and a clean sans-serif typeface for establishes a professional, simple aesthetic for the
                             product and ensures a pleasant feeling to the user.</p>
                     </div>
@@ -291,6 +289,16 @@
 
     <section class="">
         <div class="bg-last my-5"></div>
+        <div class="container">
+        <div class="my-5">
+                <a href="{{url('case-1')}}">
+                    <div class="next-case">
+                        <p class="mx-2">Next Case</p>
+                        <img src="{{asset('assets/images/next_icon.svg')}}" alt="arrow">
+                    </div>
+                </a>
+            </div>
+        </div>
     </section>
 
 

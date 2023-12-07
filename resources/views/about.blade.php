@@ -11,17 +11,21 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <h1>Hey there,I'm Mujadad. 👋</h1>
-                    <p>I am a passionate about minimalism and Apple design aesthetics.
-                        UX Designer with proficiency in B2B, B2C product design, design systems, and a proven track record in web and mobile application design, based in UAE</p>
-                    <p>Apart from design, I spend my free time playing dota 2 which is my favorite game and I am pretty good at it.</p>
-                    <p>I am also Aries (Since 1998)</p>
-                    <p>Let's get in touch!</p>
+                    <div class="text-box">
+                        <h1>Hey there,I'm Mujadad. 👋</h1>
+                        <p class="pt-5">I am a passionate about minimalism and Apple design aesthetics. <br>
+                        <br>
+                            UX Designer with proficiency in B2B, B2C product design, design systems, and a proven track record in web and mobile application design, based in UAE</p>
+                        <br>
+                            <p>Apart from design, I spend my free time playing dota 2 which is my favorite game and I am pretty good at it.</p>
+                        <p class="abt_rise">I am also Aries (Since 1998)</p>
+                        <p>Let's get in touch!</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="get-touch text-center my-5">
+    <section class="get-touch text-center mt-5">
         <h5 class="tag-line">Get in touch</h5>
         <h2>shahzebkh@outlook.com</h2>
 
