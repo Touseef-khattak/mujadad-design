@@ -13,15 +13,15 @@
                     </h1>
                 </div>
                 <div class="col-md-6">
-                    <div class="d-flex flex-column align-items-end">
+                    <div class="align-items-end d-flex flex-lg-column flex-lg-wrap-reverse flex-row flex-wrap ">
 
-                            <a class="project-link d-flex align-items-start my-1" href=""><p>Live Product</p>
+                            <a class="project-link d-flex align-items-start justify-content-lg-end my-1" href=""><p>Live Product</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
 
-                            <a class="project-link d-flex align-items-start my-1" href=""><p>Play Store</p>
+                            <a class="project-link d-flex align-items-start justify-content-lg-end my-1 mx-3 mx-lg-0" href=""><p>Play Store</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
 
-                            <a class="project-link d-flex align-items-start my-1" href=""><p>App Store</p>
+                            <a class="project-link d-flex align-items-start justify-content-lg-end my-1" href=""><p>App Store</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
 
                     </div>
@@ -39,9 +39,10 @@
     </div>
 
     <section class="sec2-case1 py-3">
+        <img src="{{asset('assets/images/hilal/mobile/sec-1.png')}}" class="w-100 h-100 d-block d-md-none" alt="">
         <div class="container">
             <div class="sec1-img">
-                <img src="{{asset('assets/images/hilal/Hilal-Main-sec.png')}}" class="w-100" alt="">
+                <img src="{{asset('assets/images/hilal/Hilal-Main-sec.png')}}" class="w-100 d-none d-md-block" alt="">
             </div>
         </div>
     </section>
@@ -54,7 +55,7 @@
                 <p>As a result, they have given us the opportunity to conduct a UX audit to identify these issues and provide recommendations for improvement. Our goal is to help Hilal Invest address any UX issues and enhance the overall user experience of their app.</p>
                     <div class="teams-role my-5">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-12 col-md-6">
                                 <h3 class="secondary-heading-case">My Team</h3>
                                 <div class="d-flex">
                                     <div class="img-team mem-1">
@@ -71,7 +72,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-md-6">
                                 <h3 class="secondary-heading-case">My Role</h3>
                                 <p>This project was out sourced to our team in Tangent. Where I was responsible for conducting Research, User interviews and the interface design.</p>
                             </div>
@@ -93,17 +94,17 @@
             </div>
             <div class="design-case2-process my-5">
                 <div class="row">
-                                <div class="col-4">
+                                <div class="col-12 col-md-4">
 
                                     <h2 class="secondary-heading-case">1.</h2>
                                     <img class="step-overlay" src="{{asset('assets/images/hilal/step-1.png')}}" alt="">
 
                                 </div>
-                                <div class="col-4 pe-4">
+                                <div class="col-12 col-md-4 pe-md-4">
                                     <h2 class="secondary-heading-case">2.</h2>
                                     <img class="step-overlay" src="{{asset('assets/images/hilal/step-2.png')}}" alt="">
                                 </div>
-                                <div class="col-4 pe-4">
+                                <div class="col-12 col-md-4 pe-md-4">
                                     <h2 class="secondary-heading-case">3.</h2>
                                     <img class="step-overlay" src="{{asset('assets/images/hilal/step-3.png')}}" alt="">
                                 </div>
@@ -168,7 +169,7 @@
             </div>
 
             <div class="my-5 pt-5">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center flex-column flex-md-row">
                         <div class="cards-relevent mx-4">
                             <img src="{{asset('assets/images/hilal/relevance.png')}}" alt="relevant">
                             <h3 class="secondary-heading-case">Relevant Actions</h3>
@@ -184,7 +185,7 @@
                 </div>
             </div>
 
-            <div class="my-5 py-4">
+            <div class="my-5 py-4 d-none">
                 <div class="w-100 my-2">
                     <div class="row h-100 py-5">
                         <div class="col-lg-6 h-100">
@@ -316,7 +317,7 @@
             <div class="container">
 
             <div class="row my-5">
-                <div class="col-8">
+                <div class="col-12 col-lg-8">
                     <h2 class="secondary-heading-case">
                         Impact and future ✨
                     </h2>

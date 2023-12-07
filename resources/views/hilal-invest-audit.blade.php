@@ -7,7 +7,6 @@
     <section id="case_sec_1" class="my-5" data-cursor-white="true">
         <div class="container">
             <div class="row">
-<<<<<<< Updated upstream
                 <div class="col-12">
                     <div class="my-3">
                         <a href="{{url('case-1')}}">
@@ -18,10 +17,8 @@
                         </a>
                     </div>
                     <h1 class="main_heading  pe-3">
-=======
                 <div class="col-md-6">
                     <h1 class="main_heading pe-3">
->>>>>>> Stashed changes
                         Hilal Invest Audit
                     </h1>
                 </div>

@@ -14,13 +14,13 @@
                 <div class="col-md-6">
                     <div class="align-items-end d-flex flex-lg-column flex-lg-wrap-reverse flex-row flex-wrap ">
 
-                            <a class="project-link d-flex align-items-start my-1" href=""><p>Live Product</p>
+                            <a class="project-link d-flex align-items-start justify-content-lg-end my-1" href=""><p>Live Product</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
 
-                            <a class="project-link d-flex align-items-start my-1 mx-2 mx-lg-0" href=""><p>Play Store</p>
+                            <a class="project-link d-flex align-items-start justify-content-lg-end my-1 mx-3 mx-lg-0" href=""><p>Play Store</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
 
-                            <a class="project-link d-flex align-items-start my-1" href=""><p>App Store</p>
+                            <a class="project-link d-flex align-items-start justify-content-lg-end my-1" href=""><p>App Store</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
 
                     </div>
@@ -32,13 +32,14 @@
     <div>
         <div class="container">
             <hr>
-            <p class="py-3 m-0">Product Design</p>
+            <p class="py-1 py-lg-3 m-0">Product Design</p>
             <hr>
         </div>
     </div>
 
     <section class="sec2-case1 py-3">
-        <div class="container">
+        <img src="{{asset('assets/images/case-1/mobile/hero-mobile.png')}}" class="w-100 d-block d-lg-none" alt="">
+        <div class="container d-none d-lg-block">
             <div class="sec1-img">
                 <img src="{{asset('assets/images/case-1/wow-1.jpg')}}" class="w-100" alt="">
             </div>
@@ -64,7 +65,7 @@
 
                     <div class="teams-role my-5">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-12 col-md-6">
                                 <h2 class="secondary-heading-case">My Team</h2>
                                 <div class="d-flex">
                                     <div class="img-team mem-1">
@@ -81,7 +82,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-md-6">
                                 <h2 class="secondary-heading-case">My Role</h2>
                                 <p>I was a mid-level designer on the Tangent team, where I worked closely with engineers,
                                      stakeholders and the QA team to ensure the product's quality.</p>
@@ -99,14 +100,14 @@
                              we were shifting from a focus on consumers (B2C) to businesses (B2B) </p>
                         <div class="my-5">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-12 col-md-6">
                                     <div class="bg-mark">
                                         <h2 class="steps-head-count">1.</h2>
                                         <h3 class="secondary-heading-case">Enabling users to schedule <br> appointments immediately.</h3>
                                         <p>Surface relevant actions & information to empower self-service in solving questions, managing problems and reducing customer support request.</p>
                                     </div>
                                 </div>
-                                <div class="col-6 pe-4">
+                                <div class="col-12 col-md-6 pe-4">
                                     <h2 class="steps-head-count">2.</h2>
                                     <h3 class="secondary-heading-case">Creating a smooth and seamless overall user experience.</h3>
                                     <p>Our primary goal was to enhance the user experience by enabling users to schedule appointments instantly, while also focusing on creating a smooth and seamless overall experience.</p>
@@ -119,9 +120,11 @@
     </section>
 
     <section class="sec4-case1">
-        <div class="container"><h1 class="secondary-heading-case">Process</h1></div>
+        <div class="container">
+            <h1 class="secondary-heading-case">Process</h1>
+        </div>
         <div class="row">
-            <div class="col-4" style="background-color: #519C660D;">
+            <div class="col-12 col-lg-4" style="background-color: #519C660D;">
                 <div class="first_Proc py-4">
                     <h4 class="process-head">Phase 1</h4>
                     <div class="my-3 process-style"><p>Research</p></div>
@@ -130,7 +133,7 @@
                     <div></div>
                 </div>
             </div>
-            <div class="col-4" style="background-color: #FB8F3F33;">
+            <div class="col-12 col-lg-4" style="background-color: #FB8F3F33;">
                 <div class="p-4">
                     <h4 class="process-head">Phase 2</h4>
                     <div class="d-flex justify-content-center flex-wrap">
@@ -142,7 +145,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4" style="background-color: #6600660D;">
+            <div class="col-12 col-lg-4" style="background-color: #6600660D;">
                 <div class="p-4">
                     <h4 class="process-head">Phase 3</h4>
                     <div class="">
@@ -164,7 +167,7 @@
                        We employed the MoSCoW prioritization model to categorize features into "Must dos" and "Would-love-to dos.</p>
                 </div>
             </div>
-            <div class="row my-4 p-5" style="background-color: #FAFAFA;">
+            <div class="row my-4 p-0 p-lg-3 must_dos" style="background-color: #FAFAFA;">
                 <div class="col-lg-5">
                     <h2 class="feature-prior-h">Must dos</h2>
                     <div class="row">
@@ -177,7 +180,7 @@
                         <div class="col-4 mt-4"><div class="box-of-dos" style="background-color: #AFBCCF">Current Flows</div></div>
                     </div>
                 </div>
-                <div class="col-lg-5 offset-1">
+                <div class="col-lg-5 offset-lg-1">
                     <h2 class="feature-prior-h">Would-love to dos</h2>
                     <div class="row">
                         <div class="col-4"><div class="box-of-dos" style="background-color: #FFD966">Typography Changes
@@ -204,7 +207,7 @@
                 </div>
             </div>
             <div class="img-user-flows w-100 mb-3">
-                <img class="w-100" src="{{asset('assets/images/case-1/user-flow-img.png')}}" alt="User Flow">
+                <img style="background: #FAFAFA;" class="w-100" src="{{asset('assets/images/case-1/user-flow-img.png')}}" alt="User Flow">
             </div>
 
             <div class="my-5">
@@ -214,7 +217,7 @@
                         <p>The wireframes were created using combination of user research and feedback from the stakeholders</p>
                     </div>
                 </div>
-                <div class="img-user-flows w-100 my-2">
+                <div class="img-wireframes-flows w-100 my-2">
                     <img class="w-100" src="{{asset('assets/images/case-1/wireframes.png')}}" alt="User Flow">
                 </div>
             </div>
@@ -226,7 +229,8 @@
                     </div>
                 </div>
                 <div class="img-user-flows w-100 my-2">
-                    <img class="w-100" src="{{asset('assets/images/case-1/design-system.png')}}" alt="User Flow">
+                    <img class="w-100 d-none d-md-block" src="{{asset('assets/images/case-1/design-system.png')}}" alt="User Flow">
+                    <img class="w-100 d-block d-md-none" src="{{asset('assets/images/case-1/mobile/design.png')}}" alt="User Flow">
                 </div>
             </div>
 
@@ -240,17 +244,21 @@
                 </div>
                 <div class="blocks-color-typo w-100 my-2">
                     <div class="row h-100 py-5">
-                        <div class="col-lg-6">
+                        <div class="col-8 col-lg-6">
                             <div class="satoshi-img">
 
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-4 d-block d-lg-none">
+                            <div class="d-block d-lg-none col-lg-6 bg-typo-boxes up-box"><div class="p-4" style="background-color: #FAFAFA; border: 1px solid rgba(0, 0, 0, 0.10);"><h5>#FAFAFA</h5></div></div>
+                        </div>
+
+                        <div class="col-12 col-lg-6">
                             <div class="row h-100">
-                                <div class="col-6 bg-typo-boxes up-box"><div class="p-4 h-100" style="background-color: #FAFAFA; border: 1px solid rgba(0, 0, 0, 0.10);"><h5>#FAFAFA</h5></div></div>
-                                <div class="col-6 bg-typo-boxes up-box"><div class="p-4 h-100" style="background-color: #FB8F3F"><h5 class="text-light">#FB8F3F</h5></div></div>
-                                <div class="col-6 bg-typo-boxes low-box"><div class="p-4 h-100" style="background-color: #FFA868"><h5 class="text-light">#FFA868</h5></div></div>
-                                <div class="col-6 bg-typo-boxes low-box"><div class="p-4 h-100" style="background-color: #191919"><h5 class="text-light">#191919</h5></div></div>
+                                <div class="d-none d-lg-block col-lg-6 bg-typo-boxes up-box"><div class="p-4 h-100" style="background-color: #FAFAFA; border: 1px solid rgba(0, 0, 0, 0.10);"><h5>#FAFAFA</h5></div></div>
+                                <div class="col-4 col-lg-6 bg-typo-boxes up-box"><div class="p-4 h-100" style="background-color: #FB8F3F"><h5 class="text-light">#FB8F3F</h5></div></div>
+                                <div class="col-4 col-lg-6 bg-typo-boxes low-box"><div class="p-4 h-100" style="background-color: #FFA868"><h5 class="text-light">#FFA868</h5></div></div>
+                                <div class="col-4 col-lg-6 bg-typo-boxes low-box"><div class="p-4 h-100" style="background-color: #191919"><h5 class="text-light">#191919</h5></div></div>
                             </div>
                         </div>
                     </div>
@@ -269,22 +277,31 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-6 h-100">
+                        <div class="col-lg-6 d-none d-lg-block h-100">
                             <div class="web-img text-end">
-                                <img class="w-100" src="{{asset('assets/images/case-1/Case list view 1.png')}}" alt=" web case">
+                                <img class="w-100 d-none d-md-block" src="{{asset('assets/images/case-1/Case list view 1.png')}}" alt=" web case">
+                            </div>
+                            <p class="text-center p-5">A comprehensive Dashboard layout for healthcare benefits and services.</p>
+                        </div>
+                        <div class="col-12 d-block d-lg-none">
+                            <div class="web-img-mobile">
                             </div>
                             <p class="text-center p-5">A comprehensive Dashboard layout for healthcare benefits and services.</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="bg-3rd-last my-5"></div>
-            <div class="bg-2nd-last my-5"></div>
-
-
-
         </div>
+    </section>
+
+    <section>
+        <div class="bg-3rd-last my-5">
+            <img class="w-100 d-block d-lg-none" src="{{asset('assets/images/case-1/mobile/3rd-last.png')}}" alt=" web case">            
+        </div>
+        <div class="bg-2nd-last my-5">
+            <img class="w-100 d-block d-lg-none" src="{{asset('assets/images/case-1/mobile/2nd-last.png')}}" alt=" web case">
+        </div>
+        <p class="text-center px-2">It’s a breeze to assemble new pages from blocks and components</p>
     </section>
 
     <section class="">
@@ -293,7 +310,7 @@
         <div class="my-5">
                 <a href="{{url('case-1')}}">
                     <div class="next-case">
-                        <p class="mx-2">Next Case</p>
+                        <p class="mx-2 mb-0">Next Case</p>
                         <img src="{{asset('assets/images/next_icon.svg')}}" alt="arrow">
                     </div>
                 </a>

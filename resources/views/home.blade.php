@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
             <div class="col-12">
-                    <h1 class="primary-heading pe-3 text-center" data-scroll data-scroll-speed="1">
+                    <h1 class="primary-heading text-center" data-scroll data-scroll-speed="1">
                         User Experience<br/>
                         Designer
                     </h1>
@@ -15,11 +15,14 @@
             </div>
         </div>
         <div class=mujadad_hone_text>MUJADAD <span style="color: #FF7D59;">.</span></div>
+        <div class="down-arrow">
+            <img src="{{asset('assets/images/arrow-down.png')}}" alt="">
+        </div>
     </section>
 
     <section class="work-1-hp py-3">
         <div class="container">
-            <h1 class="primary-heading mt-lg-5 mb-3 mb-lg-0">Selected Work</h1>
+            <h1 class="primary-heading mt-lg-5 mb-3">Selected Work</h1>
             <div class="bg-work">
                 <a class="route-to-work d-none" href="{{url('case-1')}}"></a>
                 <div class="row">
