@@ -14,16 +14,16 @@
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex flex-column align-items-end">
-                            
+
                             <a class="project-link d-flex align-items-start my-1" href=""><p>Live Product</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
-                        
+
                             <a class="project-link d-flex align-items-start my-1" href=""><p>Play Store</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
-                        
+
                             <a class="project-link d-flex align-items-start my-1" href=""><p>App Store</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
-                        
+
                     </div>
                 </div>
             </div>
@@ -88,16 +88,16 @@
                         <br>
                             The workshop began with a warm-up exercise designed to better understand users' interactions and experiences with the Hilal Invest App. This included exploring their payment behaviors, utilization of app features, motivations for logging in, common transaction types, and any issues they may have encountered during their usage.</p>
                     </div>
-                    
-                           
+
+
             </div>
             <div class="design-case2-process my-5">
                 <div class="row">
                                 <div class="col-4">
-                                    
+
                                     <h2 class="secondary-heading-case">1.</h2>
                                     <img class="step-overlay" src="{{asset('assets/images/hilal/step-1.png')}}" alt="">
-                                    
+
                                 </div>
                                 <div class="col-4 pe-4">
                                     <h2 class="secondary-heading-case">2.</h2>
@@ -105,7 +105,7 @@
                                 </div>
                                 <div class="col-4 pe-4">
                                     <h2 class="secondary-heading-case">3.</h2>
-                                    <img class="step-overlay" src="{{asset('assets/images/hilal/step-3.png')}}" alt="">    
+                                    <img class="step-overlay" src="{{asset('assets/images/hilal/step-3.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -115,7 +115,7 @@
 
     <section class="user-flows-wireFrames">
         <div class="container">
-            
+
             <div class="row">
                 <div class="col-12 col-lg-7">
                     <h1 class="secondary-heading-case">IA & User Flows</h1>
@@ -177,7 +177,7 @@
                         <div class="cards-relevent mx-4">
                             <img src="{{asset('assets/images/hilal/real-time.png')}}" alt="real-time">
                             <h3 class="secondary-heading-case">Real time status</h3>
-                            <p>Transactions are easier to understand. You can see in real-time if they're 
+                            <p>Transactions are easier to understand. You can see in real-time if they're
                                 waiting for approval from the bank.
                                 Plus, if a transaction gets rejected, you'll receive a notification.</p>
                         </div>
@@ -194,7 +194,7 @@
                                 <p class="text-center p-5">The display design prioritizes a clear, organized layout that enhances user comprehension.</p>
                             </div>
                         </div>
-                    
+
                         <div class="col-lg-6 h-100">
                             <div class="mobile-side">
                                 <div class="mobile-img-2">
@@ -221,7 +221,7 @@
                             <div class="streaming-para my-3">
                                 <p>
                                     <strong>Streamlining</strong><br>
-                                    In response, we decided to streamline the process, enabling users to input data at their convenience, reducing cognitive load.                        
+                                    In response, we decided to streamline the process, enabling users to input data at their convenience, reducing cognitive load.
                                 </p>
                             </div>
                             <div class="streaming-para my-3">
@@ -232,7 +232,7 @@
                             <div class="streaming-para my-3">
                                 <p>
                                     <strong>Increased Customer Retention</strong><br>
-                                        The streamlined approach led to increased customer retention. 
+                                        The streamlined approach led to increased customer retention.
                                 </p>
                             </div>
                             <div class="streaming-para my-3">
@@ -243,7 +243,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
 
 
@@ -325,10 +325,10 @@
                     </p>
                     <br>
                     <p>The application was thoroughly redesigned, wherein the user interface (UI) was significantly restructured.
-                       This was not merely an aesthetic upgrade but a strategic realignment aimed at making the 
+                       This was not merely an aesthetic upgrade but a strategic realignment aimed at making the
                        application more user-friendly, intuitive, and efficient.</p>
                     <br>
-                    <p>In a clear testament to the redesign's success, the Hilal Investment app skyrocketed from its 
+                    <p>In a clear testament to the redesign's success, the Hilal Investment app skyrocketed from its
                         initial 10,000 downloads to an impressive 100,000 downloads till date.</p>
                 </div>
             </div>
@@ -350,9 +350,11 @@
                     </div>
                 </a>
             </div>
+
+            </div>
     </section>
 
- 
+
 
 
 @endsection

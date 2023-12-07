@@ -219,6 +219,21 @@ body{
 
 }
 @media only screen and (max-width: 600px) {
+    .main_heading {
+        width: 335px;
+        color: #0D1320;
+        font-family: Space Grotesk;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+    .project-link, p {
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 
 }
 

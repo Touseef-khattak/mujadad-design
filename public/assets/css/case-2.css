@@ -78,6 +78,33 @@
     line-height: 24px; /* 75% */
     width: fit-content;
 }
+
 .view-audit:hover {
     color: #FFF;
+}
+
+.back-design {
+    display: inline-flex;
+    padding: 16px 12px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 12px;
+    background: #FAFAFA;
+}
+.back-design p{
+    color: #0D1320;
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.back-design img{
+    width: 41px;
+    height: 31px;
+}
+
+.img-meeting {
+    border-radius: 10.426px;
+    mix-blend-mode: luminosity;
 }

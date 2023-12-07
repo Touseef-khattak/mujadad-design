@@ -1,13 +1,22 @@
 @extends('template')
 <link href="{{asset('assets/css/case-1.css')}}" rel="stylesheet"/>
+<link href="{{asset('assets/css/case-2.css')}}" rel="stylesheet"/>
 <link href="{{asset('assets/slick/slick.css')}}" rel="stylesheet"/>
 @section('content')
 
     <section id="case_sec_1" class="my-5" data-cursor-white="true">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <h1 class="primary-heading main_heading_animate pe-3">
+                <div class="col-12">
+                    <div class="my-3">
+                        <a href="{{url('case-1')}}">
+                            <div class="back-design">
+                                <img src="{{asset('assets/images/hilal-audit/arrow.svg')}}" alt="arrow">
+                                <p class="mx-2 mb-0">Back to redesign</p>
+                            </div>
+                        </a>
+                    </div>
+                    <h1 class="main_heading  pe-3">
                         Hilal Invest Audit
                     </h1>
                 </div>
@@ -27,7 +36,7 @@
     <section class="sec3-case1 my-5">
         <div class="container">
             <div class="content-sec3">
-                <h1>Usability testing 💫</h1>
+                <h1 class="secondary-heading-case">Usability testing 💫</h1>
                 <p>A good screener survey is integral to getting the right participants to your study and, in turn,
                     getting the best feedback you can.  To do that, we decided to roll out a survey to find the best
                     suited candidate for our usability testing. We aimed to find a user that has some or little
@@ -67,7 +76,7 @@
     <section class="sec3-case1 my-5">
         <div class="container">
             <div class="content-sec3">
-                <h1>Competitive Analysis</h1>
+                <h1 class="secondary-heading-case">Competitive Analysis</h1>
                 <p>In order to understand user behaviors and conventions in the investment app market,
                     we conducted a thorough analysis of both local and international competitors.
                     We signed up for multiple apps and carefully observed the process in order to
@@ -85,7 +94,7 @@
     <section class="sec3-case1 my-5">
         <div class="container">
             <div class="content-sec3">
-                <h1>Competitive Analysis</h1>
+                <h1 class="secondary-heading-case">Competitive Analysis</h1>
                 <p>To identify and address usability issues in the app,
                     we conducted heuristics evaluation of each screen and process. This involved reviewing the app against established usability
                     and heuristic guidelines, and noting any areas that did not meet these standards. We documented all of our findings

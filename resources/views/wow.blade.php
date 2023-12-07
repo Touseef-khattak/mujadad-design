@@ -12,17 +12,17 @@
                     </h1>
                 </div>
                 <div class="col-md-6">
-                    <div class="d-flex flex-column align-items-end">
-                        
+                    <div class="align-items-end d-flex flex-lg-column flex-lg-wrap-reverse flex-row flex-wrap ">
+
                             <a class="project-link d-flex align-items-start my-1" href=""><p>Live Product</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
-                        
-                            <a class="project-link d-flex align-items-start my-1" href=""><p>Play Store</p>
+
+                            <a class="project-link d-flex align-items-start my-1 mx-2 mx-lg-0" href=""><p>Play Store</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
-                        
+
                             <a class="project-link d-flex align-items-start my-1" href=""><p>App Store</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
-                        
+
                     </div>
                 </div>
             </div>
@@ -256,8 +256,8 @@
                     </div>
                 </div>
             </div>
-            
-            
+
+
             <div class="my-5 py-4">
                 <div class="blocks-color-typo w-100 my-2">
                     <div class="row h-100 py-5">
@@ -268,7 +268,7 @@
                                 <p class="text-center p-5">A well developed menu section was necessary to help the user engagement.</p>
                             </div>
                         </div>
-                    
+
                         <div class="col-lg-6 h-100">
                             <div class="web-img text-end">
                                 <img class="w-100" src="{{asset('assets/images/case-1/Case list view 1.png')}}" alt=" web case">
@@ -281,7 +281,7 @@
 
             <div class="bg-3rd-last my-5"></div>
             <div class="bg-2nd-last my-5"></div>
-            
+
 
 
         </div>
