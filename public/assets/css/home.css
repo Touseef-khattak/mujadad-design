@@ -1,24 +1,58 @@
 /* body {
     background: url(../images/Noise.png),  lightgray 0% 0% / 100px 100px repeat; } */
 
- 
+
 #hp_sec_1 {
         padding-top: 150px;
         padding-bottom: 30px;
         min-height: 750px;
 }
+#hp_sec_1 .primary-heading{
+    color: rgba(13, 19, 32, 0.80);
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#hp_sec_1 .sub-heading{
+    color: rgba(13, 19, 32, 0.70);
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
 .mujadad_hone_text {
-    margin-top: -20px;
-    font-size: 19rem;
+    font-size: 22rem;
     text-align: center;
     font-weight: 300;
+    width: fit-content;
+    margin: 0 auto;
+}
+.mujadad_hone_text span{
+    color: #FF7D59;
+    position: absolute;
+    right: 15px;
+}
+.down-arrow {
+    position: absolute;
+    top: 195px;
+    right: 70px;
+    width: 90.5px;
+    height: 90.5px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #404244;
+    margin: 0 auto;
 }
 
-
-#hp_sec_1 .home_animation_container{
-    animation: updo 10s linear infinite;
-    margin: 0px 0px 100px;
-}
 
 .work-1-hp .bg-work {
     background-color: #fafafa;
@@ -26,6 +60,22 @@
 }
 .bg-work {
     position: relative;
+}
+.work-1-hp .primary-heading {
+    color: #0D1320;
+    font-family: Space Grotesk;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.work-1-hp .secondary-heading {
+    color: var(--heading-text, #0D1320);
+    font-family: Space Grotesk;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px; /* 114.583% */
 }
 .route-to-work {
     position: absolute;
@@ -40,7 +90,7 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: 2.88px;
-} 
+}
 
 .img-block-work{
     overflow: hidden;
@@ -49,11 +99,11 @@
     border-bottom-right-radius: 20px;
 }
 .work-1-hp .secondary-heading {
-    width: 430px;
+    width: 400px;
 }
 .work-1-hp .img-block-work img{
     margin-top: -230px;
-    
+
 }
 
 
@@ -71,13 +121,27 @@
     margin-left: -60px;
 }
 
-
+.work-2-hp .secondary-heading {
+    width: 410px;
+    color: #FFF;
+    font-family: Space Grotesk;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px;
+}
 
 
 .work-3-hp h2 {
-    font-weight: 500;
-    width: 55%;
     margin: 20px auto;
+    width: 576px;
+    color: #FFF;
+    text-align: center;
+    font-family: Space Grotesk;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 55px; /* 114.583% */
 }
 .work-3-hp h5 {
     margin-top: 48px;
@@ -89,9 +153,25 @@
 .work-3-hp .amal-home-img {
     width: 80%;
 }
+@media (min-width: 1401px) and (max-width: 1601px) {
+    .mujadad_hone_text {
+        margin-top: -20px;
+        font-size: 19rem;
+    }
+}
+@media (min-width: 1221px) and (max-width: 1400px) {
+    .mujadad_hone_text {
+        margin-top: -20px;
+        font-size: 17rem;
+    }
+    #hp_sec_1 {
+        max-height: 700px;
+        min-height: unset;
+    }
+}
 
 
-@media (min-width: 600px) and (max-width: 1220px) {
+@media (min-width: 992px) and (max-width: 1220px) {
     #hp_sec_2 .service_card {
         width: 100%;
         height: 350px;
@@ -100,47 +180,181 @@
     #hp_sec_2 .service_card a h3{
         font-size: 22px;
     }
+    .mujadad_hone_text {
+        margin-top: 75px;
+        font-size: 13rem;
+    }
+}
+@media (min-width: 821px) and (max-width: 991px) {
+    .mujadad_hone_text {
+        margin-top: -20px;
+        font-size: 11rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 820px) {
+    #hp_sec_2 .service_card {
+        width: 100%;
+        height: 350px;
+        padding: 28px 20px;
+    }
+    #hp_sec_2 .service_card a h3{
+        font-size: 22px;
+    }
+    .mujadad_hone_text {
+        margin-top: -20px;
+        font-size: 9rem;
+    }
 }
 @media only screen and (max-width: 600px) {
-    .primary-heading b {
-        font-size: 40px;
+    #hp_sec_1 .primary-heading {
+        color: rgba(13, 19, 32, 0.80);
+        text-align: center;
+        font-family: Space Grotesk;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
     }
+    #hp_sec_1 .sub-heading {
+        color: rgba(13, 19, 32, 0.70);
+        text-align: center;
+        font-family: Space Grotesk;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+    .down-arrow {
+        position: relative;
+        width: 64.5px;
+        height: 64.5px;
+        top: unset;
+        right: unset;
+    }
+    .work-1-hp .img-block-work img {
+        margin-top: -80px;
+        width: 100%;
+    }
+    .mujadad_hone_text {
+        color: #505254;
+        text-align: center;
+        font-family: Space Grotesk;
+        font-size: 75.911px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
     .work-1-hp .primary-heading{
-        font-size: 44px !important;
+        color: #0D1320;
+        font-family: Space Grotesk;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
     }
     .work-1-hp .secondary-heading {
-        width: 350px;
+        width: 280px;
+        font-family: Space Grotesk;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin: 18px 0px;
     }
-    #hp_sec_1{
-        padding-top: 150px;
+    .work-1-hp .hilal-tag {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.92px;
+        margin-top: 32px;
+    }
+    .read-more-hilal {
+        display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 12px;
+        background: #000;
+        color: #FFF;
+        font-family: Space Grotesk;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: fit-content;
+    }
+    #hp_sec_1 {
+        padding-top: 190px;
         padding-bottom: 20px;
         min-height: unset;
     }
-    
-    #hp_sec_1 .home_animation_container {
-        margin-top: 50px;
-        margin-bottom: 50px;
+
+
+
+    .work-2-hp .secondary-heading {
+        width: 84%;
+        color: #FFF;
+        font-family: Space Grotesk;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 18px 0px;
     }
-    #hp_sec_1 .tangent_love h2.secondary-heading{
-        font-size: 30px;
+    .work-2-hp .secondary-heading span {
+        color: #FFF;
+        font-family: Space Grotesk;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
     }
-    #hp_sec_1 .tangent_love h2.secondary-heading > span{
-        display: block;
+    .work-2-hp .hilal-tag {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.92px;
+        margin-top: 32px;
+    }
+    .read-more-wow {
+        display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.50);
+        color: #FFF;
+        font-family: Space Grotesk;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        width: fit-content;
     }
 
-    .home_animation1 .animate,
-    .home_animation1{
-        width: 90px;
-        height: 90px;
-        left: 0px;
-        top: 0px;
-    }
-    .home_animation2, .home_animation3, .home_animation4{
-        width: 67px;
-        height: 127px;
-    }
     .work-3-hp h2 {
         width: 100%;
     }
 }
-
+@media screen and (max-width: 431px){
+    .mujadad_hone_text {
+        font-size: 74px;
+        letter-spacing: 5px;
+        height: 48%;
+        display: flex;
+        align-items: center;
+    }
+    .mujadad_hone_text span {
+        right: 2px;
+    }
+}
+@media screen and (max-width: 390){
+    .mujadad_hone_text {
+        font-size: 70px;
+    }
+}

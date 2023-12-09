@@ -1,11 +1,11 @@
 @extends('template')
 <link href="{{asset('assets/css/about.css')}}" rel="stylesheet"/>
-<link href="{{asset('assets/slick/slick.css')}}" rel="stylesheet"/>
 @section('content')
-    <section data-scroll-section  id="about-sec-1" class="h-100 mb-5" data-cursor-white="true">
+    <section id="about-sec-1" class="mb-5" data-cursor-white="true">
+        <img class="d-block d-md-none w-100" src="{{asset('assets/images/about/mobile/abt.png')}}" alt="Mujadad Picture">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 d-none d-md-block">
                     <div class="img-box">
                         <img src="{{asset('assets/images/about/about-img.png')}}" alt="Mujadad Picture">
                     </div>

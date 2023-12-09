@@ -10,7 +10,7 @@
         <div class="row justify-content-between align-items-center py-md-4">
             <div class="col-6 col-md-2">
                 <a href="mailto:Info@mujadad.com" class="primary-para-grey animate_border my-lg-3 my-md-0 mx-auto d-inline-block float-none float-md-start">&#169; 2023 Mujadad Hussain</a>
-                <a href="mailto:Info@mujadad.com" class="primary-para-black animate_border my-3 mx-auto float-none float-md-start">Currently based in UAE</a>
+                <a href="mailto:Info@mujadad.com" class="primary-para-black animate_border my-1 my-md-3 mx-auto float-none float-md-start">Currently based in UAE</a>
             </div>
             <div class="col-6 col-md-3">
                 <div class="social_links_footer w-100 justify-content-end d-flex">
