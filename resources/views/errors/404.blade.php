@@ -9,7 +9,7 @@
                 <div class="col-12 col-md-7 text-center">
                     <div class="error_img"></div>
                     <h2 class="heading_3 text-dark">Something Went Wrong ! 🤷‍</h2>
-                    <a href="{{('home')}}">Back To Tangent</a>
+                    <a href="{{('home')}}">Back To Home</a>
                 </div>
             </div>
         </div>
