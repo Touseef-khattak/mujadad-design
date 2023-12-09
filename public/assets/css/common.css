@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-[data-scroll-container], [data-scroll-section] { transform-style: preserve-3d; will-change: transform; }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
 body{
     overflow-x: hidden;
     font-family: Space Grotesk;
@@ -72,7 +76,6 @@ nav {
 }
 
 section{
-    overflow-y: hidden !important;
     overflow-x: hidden !important;
 }
 /*---------------------FOOTER STYLING STARTS--------------------*/

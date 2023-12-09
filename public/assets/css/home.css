@@ -39,8 +39,11 @@
     right: 15px;
 }
 .down-arrow {
-    width: 64.5px;
-    height: 64.5px;
+    position: absolute;
+    top: 195px;
+    right: 70px;
+    width: 90.5px;
+    height: 90.5px;
     flex-shrink: 0;
     border-radius: 50%;
     display: flex;
@@ -161,6 +164,10 @@
         margin-top: -20px;
         font-size: 17rem;
     }
+    #hp_sec_1 {
+        max-height: 700px;
+        min-height: unset;
+    }
 }
 
 
@@ -174,7 +181,7 @@
         font-size: 22px;
     }
     .mujadad_hone_text {
-        margin-top: -20px;
+        margin-top: 75px;
         font-size: 13rem;
     }
 }
@@ -216,6 +223,13 @@
         font-style: normal;
         font-weight: 300;
         line-height: normal;
+    }
+    .down-arrow {
+        position: relative;
+        width: 64.5px;
+        height: 64.5px;
+        top: unset;
+        right: unset;
     }
     .work-1-hp .img-block-work img {
         margin-top: -80px;

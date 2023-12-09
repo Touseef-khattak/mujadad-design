@@ -2,7 +2,7 @@
 <link href="{{asset('assets/css/home.css')}}" rel="stylesheet"/>
 <link href="{{asset('assets/slick/slick.css')}}" rel="stylesheet"/>
 @section('content')
-    <section data-scroll-section  id="hp_sec_1" class="mb-5" data-cursor-white="true">
+    <section data-scroll-section  id="hp_sec_1" class="mb-5 mb-md-0" data-cursor-white="true">
         <div class="container">
             <div class="row">
             <div class="col-12">
@@ -24,7 +24,7 @@
         <div class="container">
             <h1 class="primary-heading mt-lg-5 mb-3">Selected Work</h1>
             <div class="bg-work">
-                <a class="route-to-work d-none" href="{{url('case-1')}}"></a>
+                <a class="route-to-work d-none d-md-block" href="{{url('case-1')}}"></a>
                 <div class="row">
                     <div class="col-12 col-lg-4">
                         <div class="d-flex flex-column justify-content-around h-100 px-4 px-lg-5 py-3 py-lg-0 text-block-work">
@@ -48,7 +48,7 @@
     <section class="work-2-hp my-3 my-lg-5">
         <div class="container">
             <div class="bg-work">
-            <a class="route-to-work d-none" href="{{url('case-2')}}"></a>
+            <a class="route-to-work d-none d-md-block" href="{{url('case-2')}}"></a>
                 <div class="row">
                     <div class="col-12 col-lg-4">
                         <div class="d-flex text-light flex-column justify-content-around h-100  px-4 px-lg-5 py-3 py-lg-0  text-block-work">

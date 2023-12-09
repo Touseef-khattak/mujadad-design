@@ -20,6 +20,14 @@ body{
 }
 .project-link , p {
     color: var(--heading-text, #0D1320);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.project-link > p > .text-grey-link{
+    color: var(--heading-text, rgba(0, 0, 0, 0.40));
     font-family: Space Grotesk;
     font-size: 16px;
     font-style: normal;
@@ -129,7 +137,9 @@ body{
     padding: 10px;
     font-size: 12px;
 }
-
+.color-section {
+    height: max-content;
+}
 .satoshi-img {
     background-image: url('../images/case-1/satoshi-img.png');
     height: 100%;
@@ -156,7 +166,7 @@ body{
 .mobile-img {
     background-image: url('../images/case-1/wow-mob-1.png');
     width: 100%;
-    height: 100%;
+    height: 650px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -168,7 +178,7 @@ body{
 .web-img > img{
     object-fit: contain;
     width: 75%;
-    height: 100%;
+    height: 650px;
 }
 
 .bg-3rd-last {
@@ -185,6 +195,27 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.breeze_text {
+        color: #0D1320;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.4px;
+        width: 608px;
+        margin: 0 auto;
+    }
+    .breeze_text > span{
+        color: rgba(13, 19, 32, 0.50);
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.4px;
+    }
 .bg-last {
     background-image: url('../images/case-1/mobile-views.png');
     width: 100%;
@@ -211,17 +242,53 @@ body{
     font-weight: 300;
     line-height: 94px; /* 146.875% */
 }
-
+.mobiles-both-sides {
+    height: max-content;
+}
+.mobiles-both-sides p{
+    width: 75%;
+    margin: 0 auto;
+}
 @media (min-width: 1221px) and (max-width: 1400px) {
    .first_Proc {
         max-width: 315px;
     }
-
+    .bg-typo-boxes.up-box {
+        height: 60%;
+    }
 }
-@media (min-width: 600px) and (max-width: 1220px) {
-   
+
+
+@media (min-width: 992px) and (max-width: 1220px) {
+   .content-sec3 {
+        width: 100%;
+   }
+   .bg-typo-boxes.up-box {
+        height: 44%;
+    }
+}
+@media (min-width: 601px) and (max-width: 991px) {
+   .content-sec3 {
+    width: 100%;
+   }
+   .satoshi-img {
+        background-image: url('../images/case-1/mobile/satashi-bg.png');
+        width: 100%;
+        height: 500px;
+   }
+   .bg-typo-boxes.up-box , .bg-typo-boxes.low-box {
+        height: unset;
+   }
+   .bg-typo-boxes.low-box {
+        margin-top: 0px;
+   }
+   .bg-typo-boxes > div {
+        height: 284px !important;
+        width: 100%;
+   }
 }
 @media only screen and (max-width: 600px) {
+    
     .main_heading {
         width: 335px;
         color: #0D1320;
@@ -240,13 +307,34 @@ body{
         font-weight: 400;
         line-height: normal;
     }
+    .secondary-heading-case{
+        color: var(--heading-text, #0D1320);
+        font-family: Space Grotesk;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; /* 136.364% */
+        letter-spacing: -0.22px;
+    }
+    p {
+        color: var(--heading-text, #0D1320);
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px; /* 200% */
+        letter-spacing: -0.12px;
+    }
+    .sec2-case1 > img {
+        object-fit: contain ;
+    }
     .content-sec3 {
         width: 100%;
     }
     .box-of-dos {
         width: 150px;
     }
-    .user-flows-wireFrames > .container {
+    .user-flows-wireFrames > .container , .mobiles-both-sides > .container {
         width: 100% !important;
         padding: 0px;
     }
@@ -263,23 +351,43 @@ body{
         object-fit: cover;
     }
     .satoshi-img {
-        height: 254px;
+        background-image: url('../images/case-1/mobile/satashi-bg.png');
+        width: 100%;
+        height: 365px;
     }
+   .bg-typo-boxes.up-box , .bg-typo-boxes.low-box {
+        height: unset;
+    }
+   .bg-typo-boxes.low-box {
+        margin-top: 0px;
+    }
+   .bg-typo-boxes > div {
+        height: 284px !important;
+        width: 100%;
+    }
+    
     .bg-typo-boxes > div {
         border-radius: 20px;
         width: 100%;
         height: 254px;
     }
     .mobile-img {
-        height: 550px;
+        height: 715px;
         background-position: center;
         background-size: cover;
     }
     .web-img-mobile {
         background-image: url('../images/case-1/mobile/web-dash.png');
-        height: 550px;
+        height: 899px;
         background-position: center;
         background-size: cover;
+    }
+    .mobiles-both-sides p{
+        width: 85%;
+        margin: 0 auto;
+    }
+    section.user-flows-wireFrames > .container {
+        padding: 0;
     }
     
     .bg-3rd-last {
@@ -296,9 +404,17 @@ body{
         background-repeat: no-repeat;
         background-size: unset;
     }
+    
+    .breeze_text {
+        width: unset;
+    }
+    .breeze_text , .breeze_text > span {
+        font-size: 16px;
+    }
+    
     .bg-last {
         background-image: url('../images/case-1/mobile/last-sec.png');
-        height: 1080px;
+        height: 1480px;
     }
     .next-case {
         border-radius: 12px;

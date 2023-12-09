@@ -83,7 +83,7 @@
                                 </div>
                             </div>
                             <div class="col-12 col-md-6">
-                                <h2 class="secondary-heading-case">My Role</h2>
+                                <h2 class="secondary-heading-case mt-3 mt-md-0">My Role</h2>
                                 <p>I was a mid-level designer on the Tangent team, where I worked closely with engineers,
                                      stakeholders and the QA team to ensure the product's quality.</p>
                             </div>
@@ -198,7 +198,7 @@
 
     <section class="user-flows-wireFrames">
         <div class="container">
-            <div class="row">
+            <div class="row m-2 m-md-0">
                 <div class="col-12 col-lg-7">
                     <h1 class="secondary-heading-case">User Flows</h1>
                     <p>After the finalizing the Information Architecture, we moved on to carving out a
@@ -211,7 +211,7 @@
             </div>
 
             <div class="my-5">
-                <div class="row">
+                <div class="row m-2 m-md-0">
                     <div class="col-12 col-lg-6">
                         <h1 class="secondary-heading-case">Wireframes</h1>
                         <p>The wireframes were created using combination of user research and feedback from the stakeholders</p>
@@ -223,7 +223,7 @@
             </div>
 
             <div class="my-5">
-                <div class="row">
+                <div class="row m-2 m-md-0">
                     <div class="col-12 col-lg-6">
                         <h1 class="secondary-heading-case">Design system</h1>
                     </div>
@@ -234,6 +234,11 @@
                 </div>
             </div>
 
+        </div>
+    </section>
+
+    <section class="color-section">
+        <div class="container">
             <div class="my-5">
                 <div class="row">
                     <div class="col-12 col-lg-8">
@@ -243,32 +248,40 @@
                     </div>
                 </div>
                 <div class="blocks-color-typo w-100 my-2">
-                    <div class="row h-100 py-5">
-                        <div class="col-8 col-lg-6">
+                    <div class="row h-100 py-1 py-lg-5">
+                        <div class="col-12 col-lg-6">
                             <div class="satoshi-img">
 
                             </div>
                         </div>
-                        <div class="col-4 d-block d-lg-none">
-                            <div class="d-block d-lg-none col-lg-6 bg-typo-boxes up-box"><div class="p-4" style="background-color: #FAFAFA; border: 1px solid rgba(0, 0, 0, 0.10);"><h5>#FAFAFA</h5></div></div>
-                        </div>
-
-                        <div class="col-12 col-lg-6">
-                            <div class="row h-100">
+                        <div class="col-12 col-lg-6 ">
+                            <div class="row h-100 align-content-center">
                                 <div class="d-none d-lg-block col-lg-6 bg-typo-boxes up-box"><div class="p-4 h-100" style="background-color: #FAFAFA; border: 1px solid rgba(0, 0, 0, 0.10);"><h5>#FAFAFA</h5></div></div>
-                                <div class="col-4 col-lg-6 bg-typo-boxes up-box"><div class="p-4 h-100" style="background-color: #FB8F3F"><h5 class="text-light">#FB8F3F</h5></div></div>
-                                <div class="col-4 col-lg-6 bg-typo-boxes low-box"><div class="p-4 h-100" style="background-color: #FFA868"><h5 class="text-light">#FFA868</h5></div></div>
-                                <div class="col-4 col-lg-6 bg-typo-boxes low-box"><div class="p-4 h-100" style="background-color: #191919"><h5 class="text-light">#191919</h5></div></div>
+                                <div class="col-4 col-lg-6 bg-typo-boxes up-box"><div class="p-2 p-lg-4 h-100" style="background-color: #FB8F3F"><h5 class="text-light">#FB8F3F</h5></div></div>
+                                <div class="col-4 col-lg-6 bg-typo-boxes low-box"><div class="p-2 p-lg-4 h-100" style="background-color: #FFA868"><h5 class="text-light">#FFA868</h5></div></div>
+                                <div class="col-4 col-lg-6 bg-typo-boxes low-box"><div class="p-2 p-lg-4 h-100" style="background-color: #191919"><h5 class="text-light">#191919</h5></div></div>
                             </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-7">
+                            
+                        </div>
+                        <div class="col-5">
+                            
                         </div>
                     </div>
                 </div>
             </div>
 
+        </div>
+   </section>
 
-            <div class="my-5 py-4">
-                <div class="blocks-color-typo w-100 my-2">
-                    <div class="row h-100 py-5">
+    <section class="mobiles-both-sides">
+        <div class="container">
+            <div class="my-5">
+                <div class="blocks-color-typo w-100">
+                    <div class="row h-100">
                         <div class="col-lg-6 h-100">
                             <div class="mobile-side">
                                 <div class="mobile-img">
@@ -301,7 +314,7 @@
         <div class="bg-2nd-last my-5">
             <img class="w-100 d-block d-lg-none" src="{{asset('assets/images/case-1/mobile/2nd-last.png')}}" alt=" web case">
         </div>
-        <p class="text-center px-2">It’s a breeze to assemble new pages from blocks and components</p>
+        <p class="text-center px-2 breeze_text">It’s a breeze to <span>assemble new pages from blocks</span> and components</p>
     </section>
 
     <section class="">
