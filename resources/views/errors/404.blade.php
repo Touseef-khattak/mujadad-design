@@ -1,5 +1,5 @@
 @extends('template')
-<link href="{{asset('/public/assets/css/error.css')}}" rel="stylesheet" />
+<link href="{{asset('assets/css/error.css')}}" rel="stylesheet" />
 @section('content')
 
 

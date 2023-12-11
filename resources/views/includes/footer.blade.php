@@ -1,6 +1,6 @@
 <footer data-scroll-section data-cursor-white="true" id="footer" >
     <div class="container" data-scroll data-scroll-speed="0">
-
+        <div class="ball"></div>
         <div class="row border-b-footer px-0">
             <div class="col-md-12  pe-md-0 px-0">
                 <h2 class="sub-heading"><a class="animate_border" href="{{('contact')}}">Let’s work together 🙌</a></h2>
@@ -42,6 +42,16 @@
 
         lastScrollTop = scrollPosition;
     });
+
+let cursor=document.querySelector('.ball');
+
+document.onmousemove = function(e) {  
+    let x= e.clientX;
+    let y= e.clientY;
+
+    cursor.style.left= x+'px';
+    cursor.style.top= y+'px';
+};
 
 
 </script>
