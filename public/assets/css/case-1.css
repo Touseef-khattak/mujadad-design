@@ -46,7 +46,7 @@ body{
 }
 .steps-head-count {
     color: var(--heading-text, #0D1320);
-    font-family: Inter;
+    font-family: Space Grotesk;
     font-size: 72px;
     font-style: normal;
     font-weight: 700;
@@ -63,7 +63,7 @@ body{
 }
 .feature-prior-h {
     color: #1E1E1E;
-    font-family: Inter;
+    font-family: Space Grotesk;
     font-size: 26px;
     font-style: normal;
     font-weight: 700;
@@ -288,7 +288,7 @@ body{
    }
 }
 @media only screen and (max-width: 600px) {
-    
+
     .main_heading {
         width: 335px;
         color: #0D1320;
@@ -365,7 +365,7 @@ body{
         height: 284px !important;
         width: 100%;
     }
-    
+
     .bg-typo-boxes > div {
         border-radius: 20px;
         width: 100%;
@@ -389,7 +389,7 @@ body{
     section.user-flows-wireFrames > .container {
         padding: 0;
     }
-    
+
     .bg-3rd-last {
         background-image: none;
         width: unset;
@@ -404,14 +404,14 @@ body{
         background-repeat: no-repeat;
         background-size: unset;
     }
-    
+
     .breeze_text {
         width: unset;
     }
     .breeze_text , .breeze_text > span {
         font-size: 16px;
     }
-    
+
     .bg-last {
         background-image: url('../images/case-1/mobile/last-sec.png');
         height: 1480px;
