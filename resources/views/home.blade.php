@@ -95,106 +95,13 @@
 @section('footer_scripts')
     <script src="{{asset('assets/slick/slick.js')}}"></script>
     <script>
-        $(document).ready(function () {
-            // let myCarousel = document.querySelector('#case_studies_carousal')
-            // let case_studies_carousal = new bootstrap.Carousel(myCarousel,{
-            //     pause: true,
-            //     wrap: false
-            // })
-            $('#case_studies_carousal').slick({
-                centerMode: true,
-                centerPadding: '0px',
-                slidesToShow: 1,
-                infinite:false,
-                arrows: false,
-                mobileFirst:true,
-                responsive: [
-                    {
-                        breakpoint: 560,
-                        settings: {
-                            centerMode:true,
-                            centerPadding: '70px',
-                            slidesToShow: 1,
-                        }
-                    },
-                    {
-                        breakpoint: 1440,
-                        settings: {
-                            centerMode:true,
-                            centerPadding: '150px',
-                            slidesToShow: 1,
-                        }
-                    },
-                    {
-                        breakpoint: 1640,
-                        settings: {
-                            centerMode:true,
-                            centerPadding: '350px',
-                            slidesToShow: 1,
-                        }
-                    }
-                ]
-            });
-            $('.reviews_slider').slick({
-                slidesToShow: 1,
-                centerPadding: '40px',
-                infinite:false,
-                arrows: false,
-                dots: true,
-                mobileFirst:true,
-                responsive: [
-                    {
-                        breakpoint: 560,
-                        settings: {
-                            slidesToShow: 1,
-                            dots: true,
-                        }
-                    }
-                ]
-            });
-            $('.marquee').slick({
-                speed: 100000,
-                autoplay: true,
-                autoplaySpeed: 5,
-                centerMode: true,
-                cssEase: 'linear',
-                slidesToShow: 1,
-                slidesToScroll: -1,
-                variableWidth: true,
-                infinite: true,
-                initialSlide: 1,
-                arrows: false,
-                buttons: false,
-                responsive: [
-                    {
-                        breakpoint: 560,
-                        settings: {
-                            variableWidth: true
-                        }
-                    }
-                ]
-            });
+       
+document.onmousemove = function(e) {  
+    let x= e.clientX;
+    let y= e.clientY;
 
-            $('.slick-prev').click(function(e){
-                //e.preventDefault();
-                $('#case_studies_carousal').slick('slickPrev');
-            } );
-
-            $('.slick-next').click(function(e){
-                //e.preventDefault();
-                $('#case_studies_carousal').slick('slickNext');
-            } );
-
-            $('.reviews_slider_arrow_prev').click(function(e){
-                //e.preventDefault();
-                $('.reviews_slider').slick('slickPrev');
-            } );
-
-            $('.reviews_slider_arrow_next').click(function(e){
-                //e.preventDefault();
-                $('.reviews_slider').slick('slickNext');
-            } );
-
-        })
+    cursor.style.left= x+'px';
+    cursor.style.top= y+'px';
+};
     </script>
 @endsection
