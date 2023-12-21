@@ -139,12 +139,12 @@
                 <img class="w-100 d-block d-md-none" src="{{asset('assets/images/hilal/mobile/wireframes.png')}}" alt="User Flow">
             </div>
 
-            
+
         </div>
     </section>
-    
-    <section class="creat-sec">   
-        
+
+    <section class="creat-sec">
+
             <div class="container">
                     <div class="my-5">
                 <div class="row m-2 m-md-0">
@@ -177,7 +177,7 @@
         </div>
     </section>
 
-            
+
     <section class="">
             <div class="my-5 pt-5">
                     <div class="d-flex justify-content-center align-items-center align-items-md-baseline flex-column flex-md-row">
@@ -196,11 +196,11 @@
                     </div>
             </div>
     </section>
-            
+
         <section class="mobiles-both-sides">
             <div class="container">
                 <div class="mt-5">
-                        
+
                             <div class="row h-100">
                                 <div class="col-lg-6 h-100">
                                     <div class="mobile-side">
@@ -208,7 +208,7 @@
                                         </div>
                                         <p class="text-center p-5">The display design prioritizes a clear, organized layout that enhances user comprehension.</p>
                                     </div>
-                                </div>  
+                                </div>
 
                                 <div class="col-lg-6 h-100">
                                     <div class="mobile-side">
@@ -218,11 +218,11 @@
                                     </div>
                                 </div>
                             </div>
-                       
+
                 </div>
-            </div>       
+            </div>
         </section>
-            
+
         <section class="all-new-sec">
             <div class="container">
                 <div class="my-5">
@@ -268,7 +268,7 @@
 
         <section class='more-det-sec'>
             <div class="container">
-        
+
                 <div class="my-5 py-5">
                 <div class="text-center head-All-new py-5">
                             <h1 class="primary-head-case">More details for the user</h1>
@@ -321,7 +321,7 @@
             </div>
 
         </section>
-            
+
             <section>
                 <div class="container">
                     <div class="row">
@@ -335,17 +335,17 @@
                     </div>
                 </div>
             </section>
-            
+
 
             <div class="bg-financial">
 
             </div>
 
-     
-        
-        
+
+
+
         <section>
-        
+
             <div class="container">
 
                 <div class="row my-5">
@@ -376,7 +376,7 @@
                 </div>
             </div>
             <div class="my-5">
-                <a href="{{url('case-2')}}">
+                <a href="{{url('wow')}}">
                     <div class="next-case">
                         <p class="mx-2 mb-0">Next Case</p>
                         <img src="{{asset('assets/images/next_icon.svg')}}" alt="arrow">
@@ -385,7 +385,7 @@
             </div>
         </div>
 
-            
+
     </section>
 
 

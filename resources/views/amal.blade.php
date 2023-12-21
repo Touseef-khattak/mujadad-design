@@ -303,9 +303,7 @@
 
 
         <section>
-
             <div class="container">
-
                 <div class="row my-5">
                     <div class="col-12 col-lg-8">
                         <h2 class="secondary-heading-case">
@@ -323,7 +321,7 @@
                 </div>
 
             <div class="my-5">
-                <a href="{{url('case-2')}}">
+                <a href="{{url('hilal-invest')}}">
                     <div class="next-case">
                         <p class="mx-2 mb-0">Next Case</p>
                         <img src="{{asset('assets/images/next_icon.svg')}}" alt="arrow">
