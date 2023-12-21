@@ -30,6 +30,9 @@ Route::get('case-1', function () {
 Route::get('hilal-audit', function () {
     return view('hilal-invest-audit');
 });
+Route::get('amal', function () {
+    return view('amal');
+});
 Route::get('about-me', function () {
     return view('about');
 });
