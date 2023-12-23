@@ -1,3 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
-<path d="M1 26H44.586L38.293 32.293L39.707 33.707L48.414 25L39.707 16.293L38.293 17.707L44.586 24H1V26Z" fill="#0D1320" fill-opacity="0.8"/>
-</svg>

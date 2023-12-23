@@ -265,10 +265,10 @@
                     </div>
                     <div class="row">
                         <div class="col-7">
-                            
+
                         </div>
                         <div class="col-5">
-                            
+
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@
     <section class="mobiles-both-sides">
         <div class="container">
             <div class="my-5">
-                <div class="blocks-color-typo w-100">
+                <div class="w-100">
                     <div class="row h-100">
                         <div class="col-lg-6 h-100">
                             <div class="mobile-side">
@@ -309,7 +309,7 @@
 
     <section>
         <div class="bg-3rd-last my-5">
-            <img class="w-100 d-block d-lg-none" src="{{asset('assets/images/case-1/mobile/3rd-last.png')}}" alt=" web case">            
+            <img class="w-100 d-block d-lg-none" src="{{asset('assets/images/case-1/mobile/3rd-last.png')}}" alt=" web case">
         </div>
         <div class="bg-2nd-last my-5">
             <img class="w-100 d-block d-lg-none" src="{{asset('assets/images/case-1/mobile/2nd-last.png')}}" alt=" web case">
@@ -321,7 +321,7 @@
         <div class="bg-last my-5"></div>
         <div class="container">
         <div class="my-5">
-                <a href="{{url('case-1')}}">
+                <a href="{{url('amal')}}">
                     <div class="next-case">
                         <p class="mx-2 mb-0">Next Case</p>
                         <img src="{{asset('assets/images/next_icon.svg')}}" alt="arrow">
