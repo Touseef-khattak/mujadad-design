@@ -98,10 +98,10 @@ body{
 
 .bg-mark {
     background-image: url('../images/case-1/bg-marked.png');
-
     background-repeat: no-repeat;
     background-size: contain;
     padding-right: 100px;
+    background-position: top;
 }
 .first_Proc {
     max-width: 370px;
@@ -137,6 +137,10 @@ body{
     padding: 10px;
     font-size: 12px;
 }
+.blocks-color-typo {
+    height: 650px;
+}
+
 .color-section {
     height: max-content;
 }

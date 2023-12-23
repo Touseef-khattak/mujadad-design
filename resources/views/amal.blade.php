@@ -155,46 +155,12 @@
                 </div>
             </div>
     </section>
-    <section class="mt-5">
-        <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="d-flex align-items-center p-3 h-100">
-                                    <p class="text-center text-md-start">We've completely redesigned it to focus on what's important, making it easy for first-time users to see main actions, popular funds, and how to verify their accounts. Making it more visually appealing.</p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <img class="w-100 d-none d-md-block" src="{{asset('assets/images/hilal/Iphone-14-6.png')}}" alt="">
-                                <img class="w-100 d-block d-md-none" style="margin-top: -185px;" src="{{asset('assets/images/hilal/mobile/Iphone14-6.png')}}" alt="">
-                            </div>
-                        </div>
-                </div>
-        </div>
-    </section>
+    
 
-
-    <section class="">
-            <div class="my-5 pt-5">
-                    <div class="d-flex justify-content-center align-items-center align-items-md-baseline flex-column flex-md-row">
-                            <div class="cards-relevent mx-4">
-                                <img src="{{asset('assets/images/hilal/relevance.png')}}" alt="relevant">
-                                <h3 class="secondary-heading-case mt-3">Relevant Actions</h3>
-                                <p>Only the main action which the app is about is shown on the home screen for better navigation.</p>
-                            </div>
-                            <div class="cards-relevent mx-4">
-                                <img src="{{asset('assets/images/hilal/real-time.png')}}" alt="real-time">
-                                <h3 class="secondary-heading-case mt-3">Real time status</h3>
-                                <p>Transactions are easier to understand. You can see in real-time if they're
-                                    waiting for approval from the bank.
-                                    Plus, if a transaction gets rejected, you'll receive a notification.</p>
-                            </div>
-                    </div>
-            </div>
-    </section>
-
+    
         <section class="mobiles-both-sides sec-new-process">
             <div class="container">
-                <div class="text-center head-All-new my-5 py-5">
+                <div class="text-center bg-mark my-5 py-5">
                     <h1 class="primary-head-case"><span style="color: #0D132080">New</span>
                         <br>Approach</h1>
                     <p>We created designs for the various user groups including pathologists, lab admins, and attendants.
@@ -205,7 +171,7 @@
                 </div>
                 <div class="mt-5">
                     <div class="row h-100">
-                        <div class="col-lg-6 h-100">
+                        <div class="col-lg-6 m-top-div h-100">
                             <div class="mobile-side">
                                 <div class="mobile-img-1">
                                 </div>
@@ -226,7 +192,7 @@
                 </div>
                 <div class="mt-5">
                     <div class="row h-100">
-                        <div class="col-lg-6 h-100">
+                        <div class="col-lg-6 m-top-div h-100">
                             <div class="mobile-side">
                                 <div class="mobile-img-3">
                                 </div>
@@ -243,7 +209,7 @@
                 </div>
                 <div class="my-5">
                     <img class="w-100 d-none d-md-block" src="{{asset('assets/images/amal/sec-5.png')}}" alt="Steps Image">
-                    <p class="p-1 p-xl-5">Case tracking is much easier to understand now for lab admins a fresh and clean look.</p>
+                    <p class="p-1 text-center breeze_text">Case tracking is much easier to understand now for lab <br>admins a fresh and clean look.</p>
                 </div>
             </div>
         </section>
@@ -274,7 +240,7 @@
                             </div>
                         </div>
                         <div class="col-md-6 text-center bg-mobile-side">
-                            <img class="" src="{{asset('assets/images/amal/sec-6.2.png')}}" alt="">
+                            <img class="" src="{{asset('assets/images/amal/sec-6.2.png')}}" alt="mobile-img">
                         </div>
                     </div>
                 </div>
@@ -282,12 +248,12 @@
         </section>
 
 
-        <section class="my-5">
+        <section class="my-5 last2-amal">
             <div class="container">
                 <div class="amal-2nd-last">
-
+                    <img class="w-100" src="{{asset('assets/images/amal/sec-2nd-last.png')}}" alt="">
+                    <p class="breeze_text">Implemented a dashboard featuring tailored restrictions and permissions for individual users</p>
                 </div>
-                <p>Implemented a dashboard featuring tailored restrictions and permissions for individual users</p>
             </div>
         </section>
 

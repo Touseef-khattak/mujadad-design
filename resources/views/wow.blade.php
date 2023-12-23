@@ -280,7 +280,7 @@
     <section class="mobiles-both-sides">
         <div class="container">
             <div class="my-5">
-                <div class="blocks-color-typo w-100">
+                <div class="w-100">
                     <div class="row h-100">
                         <div class="col-lg-6 h-100">
                             <div class="mobile-side">
