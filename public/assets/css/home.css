@@ -5,13 +5,16 @@
 #hp_sec_1 {
         padding-top: 150px;
         padding-bottom: 30px;
-        min-height: 750px;
+        height: max-content;
+}
+.content-home-1 {
+    height: 90vh;
 }
 #hp_sec_1 .primary-heading{
     color: rgba(13, 19, 32, 0.80);
     text-align: center;
     font-family: Space Grotesk;
-    font-size: 60px;
+    font-size: 44px;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -68,6 +71,7 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    margin-bottom: 44px;
 }
 .work-1-hp .secondary-heading {
     color: var(--heading-text, #0D1320);
@@ -342,7 +346,7 @@
         font-size: 24px;
         font-weight: 500;
     }
-    
+
 }
 @media screen and (max-width: 431px){
     .mujadad_hone_text {

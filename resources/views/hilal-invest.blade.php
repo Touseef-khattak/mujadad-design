@@ -14,10 +14,10 @@
                 <div class="col-md-6">
                     <div class="align-items-end d-flex flex-lg-column flex-lg-wrap-reverse flex-row flex-wrap ">
 
-                            <a class="project-link d-flex align-items-start justify-content-md-end my-1" href=""><p>Live Product</p>
+                            <a class="project-link d-flex align-items-start justify-content-md-end my-1" href="https://www.hilalinvest.com/"><p>Live Product</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
 
-                            <a class="project-link d-flex align-items-start justify-content-md-end my-1 mx-3 mx-sm-0" href=""><p>Play Store</p>
+                            <a class="project-link d-flex align-items-start justify-content-md-end my-1 mx-3 mx-sm-0" href="https://play.google.com/store/apps/details?id=com.hilalinvest"><p>Play Store</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
 
                             <a class="project-link d-flex align-items-start justify-content-md-end my-1" href=""><p>App Store <span class="text-grey-link">(Launching Soon)</span></p>
@@ -305,7 +305,7 @@
 
                 <div class="row my-5">
                         <div class="col-md-6 text-center bg-mobile-side">
-                            <img class="" src="{{asset('assets/images/hilal/real-time-transaction.png')}}" alt="">
+                            <img class="" src="{{asset('assets/images/hilal/risk-level-calculater.png')}}" alt="">
                         </div>
                         <div class="col-md-6">
                             <div class="text-side d-flex flex-column justify-content-center h-100 px-4">
@@ -372,7 +372,7 @@
                         Bonus 💥
                     </h2>
                     <p>Click on this button below to view Hilal invest Audit</p>
-                    <a href="{{url('hilal-audit')}}" class="view-audit">View Audit Report</a>
+                    <a href="{{url('hilal-audit')}}" class="view-audit mb-5">View Audit Report</a>
                 </div>
             </div>
             <div class="my-5">

@@ -6,7 +6,7 @@
                     <a class="nav-link" href="{{('home')}}">Mujadad.</a>
                     <a class="nav-link" href="{{('about-me')}}">About</a>
                     <a class="nav-link" target="_blank" href="{{asset('assets/images/about/about-img.png')}}">Resume</a>
-                    <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/hamza-javed-6b608416a/">linkedin</a>
+                    <a class="nav-link" target="_blank" href="http://www.linkedin.com/in/mujadad11/">linkedin</a>
                     <!-- <a href="{{('contact')}}" class="btn red_btn">TALK TO US</a> -->
                 </div>
             </div>
