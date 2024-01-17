@@ -14,13 +14,13 @@
                 <div class="col-md-6">
                     <div class="align-items-end d-flex flex-lg-column flex-lg-wrap-reverse flex-row flex-wrap ">
 
-                            <a class="project-link d-flex align-items-start justify-content-lg-end my-1" href=""><p>Live Product</p>
+                            <a class="project-link d-flex align-items-start justify-content-lg-end my-1" href="https://www.mywowhealth.com/"><p>Live Product</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
 
-                            <a class="project-link d-flex align-items-start justify-content-lg-end my-1 mx-3 mx-lg-0" href=""><p>Play Store</p>
+                            <a class="project-link d-flex align-items-start justify-content-lg-end my-1 mx-3 mx-lg-0" href="https://play.google.com/store/apps/details?id=com.wow.healthcare.wowhealthcare"><p>Play Store</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
 
-                            <a class="project-link d-flex align-items-start justify-content-lg-end my-1" href=""><p>App Store</p>
+                            <a class="project-link d-flex align-items-start justify-content-lg-end my-1" href="https://apps.apple.com/pk/app/wow-health/id1448846325"><p>App Store</p>
                             <img src="{{asset('assets/images/link.svg')}}" class="mx-2" alt="link-arrow"></a>
 
                     </div>
