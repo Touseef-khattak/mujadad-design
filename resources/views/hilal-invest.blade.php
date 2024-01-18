@@ -271,7 +271,7 @@
 
                 <div class="my-5 py-5">
                 <div class="text-center head-All-new py-5">
-                            <h1 class="primary-head-case">More details for the user</h1>
+                    <h1 class="primary-head-case"><span style="color: #0D132080">More details for the</span> user</h1>
                             <p>The design will help user to get more details about the funds and their investments.</p>
                 </div>
                 <div class="row">
@@ -338,7 +338,9 @@
 
 
             <div class="bg-financial">
-
+                <div class="container">
+                    <img src="{{asset('assets/images/hilal/financial-system.png')}}" alt="financial system view" class="w-100 d-none d-md-block">
+                </div>
             </div>
 
 

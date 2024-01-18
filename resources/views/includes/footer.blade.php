@@ -1,10 +1,10 @@
-<footer data-scroll-section data-cursor-white="true" id="footer" >
+<footer data-scroll-section data-cursor-white="true" id="footer">
     <div class="container" data-scroll data-scroll-speed="0">
         <div class="ball"></div>
         <div class="row border-b-footer px-0">
             <div class="col-md-12  pe-md-0 px-0">
                 <h2 class="sub-heading"><a class="animate_border" href="{{('contact')}}">Let’s work together 🙌</a></h2>
-                <a href="mailto:"><h3 class="subpro-head">Get in touch.</h3></a>
+                <a href="mailto:shahzebkh@outlook.com"><h3 class="subpro-head">Get in touch.</h3></a>
             </div>
         </div>
         <div class="row justify-content-between align-items-center py-md-4">
