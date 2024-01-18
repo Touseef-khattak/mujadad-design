@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 d-none d-md-block">
-                    <div class="img-box">
+                    <div class="img-box text-end">
                         <img src="{{asset('assets/images/about/about-img.png')}}" alt="Mujadad Picture">
                     </div>
                 </div>

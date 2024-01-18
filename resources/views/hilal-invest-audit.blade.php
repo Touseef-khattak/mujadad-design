@@ -9,14 +9,14 @@
             <div class="row">
                 <div class="col-12">
                     <div class="my-3">
-                        <a href="{{url('case-1')}}">
+                        <a href="{{url('hilal-invest')}}">
                             <div class="back-design">
                                 <img src="{{asset('assets/images/hilal-audit/arrow.svg')}}" alt="arrow">
                                 <p class="mx-2 mb-0">Back to redesign</p>
                             </div>
                         </a>
                     </div>
-                    <h1 class="main_heading  pe-3">
+                </div>
                 <div class="col-12">
                     <h1 class="main_heading pe-3">
                         Hilal Invest <span class="d-none d-xxl-block">Audit</span>
@@ -29,7 +29,7 @@
     <div>
         <div class="container">
             <hr>
-            <p class="py-3 m-0">Audit Report</p>
+            <p class="py-1 m-0">Audit Report</p>
             <hr>
         </div>
     </div>
@@ -53,7 +53,7 @@
                         <li><p>Invest your money in the funds</p></li>
                         <li><p>Calculate your goal for future</p></li>
                     </ul>
-                <p>Link to the survey:  <a>Click Here</a></p>
+                <p>Link to the survey:  <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2ucZSeHfCFGZRxY5CrLTADJ81kiWTZ5vvjSi-NygkRpXjyg/viewform?usp=sf_link" target="_blank">Click Here</a></p>
 
             </div>
         </div>

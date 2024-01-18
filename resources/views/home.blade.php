@@ -3,18 +3,20 @@
 <link href="{{asset('assets/slick/slick.css')}}" rel="stylesheet"/>
 @section('content')
     <section data-scroll-section  id="hp_sec_1" class="mb-5 mb-md-0" data-cursor-white="true">
-        <div class="container">
-            <div class="row">
-            <div class="col-12">
-                    <h1 class="primary-heading text-center" data-scroll data-scroll-speed="1">
-                        User Experience<br/>
-                        Designer
-                    </h1>
-                    <p class="sub-heading fw-100 text-center">Currently Based in UAE</p>
+        <div class="d-flex content-home-1 flex-column justify-content-between">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="primary-heading text-center" data-scroll data-scroll-speed="1">
+                            User Experience<br/>
+                            Designer
+                        </h1>
+                        <p class="sub-heading fw-100 text-center">Currently Based in UAE</p>
+                    </div>
                 </div>
             </div>
+            <div class=mujadad_hone_text>MUJADAD <span style="color: #FF7D59;">.</span></div>
         </div>
-        <div class=mujadad_hone_text>MUJADAD <span style="color: #FF7D59;">.</span></div>
         <div class="down-arrow">
             <img src="{{asset('assets/images/arrow-down.png')}}" alt="">
         </div>
@@ -22,7 +24,7 @@
 
     <section class="work-1-hp py-3">
         <div class="container">
-            <h1 class="primary-heading mt-lg-5 mb-3">Selected Work</h1>
+            <h1 class="primary-heading">Selected Work</h1>
             <div class="bg-work">
                 <a class="route-to-work d-none d-md-block" href="{{url('hilal-invest')}}"></a>
                 <div class="row">
