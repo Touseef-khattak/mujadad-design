@@ -308,10 +308,18 @@
     </section>
 
     <section>
-        <div class="bg-3rd-last my-5">
+        <div class="container">
+            <div class="bg-3rd-last my-5">
+            </div>
+        </div>
+        <div class="bg-3rd-last d-md-none d-block my-5">
             <img class="w-100 d-block d-lg-none" src="{{asset('assets/images/case-1/mobile/3rd-last.png')}}" alt=" web case">
         </div>
-        <div class="bg-2nd-last my-5">
+        <div class="container">
+            <div class="bg-2nd-last my-5">
+            </div>
+        </div>
+        <div class="bg-2nd-last d-md-none d-block my-5">
             <img class="w-100 d-block d-lg-none" src="{{asset('assets/images/case-1/mobile/2nd-last.png')}}" alt=" web case">
         </div>
         <p class="text-center px-2 breeze_text">It’s a breeze to <span>assemble new pages from blocks</span> and components</p>
