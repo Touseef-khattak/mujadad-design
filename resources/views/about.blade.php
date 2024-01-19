@@ -27,7 +27,7 @@
     </section>
     <section class="get-touch text-center mt-5">
         <h5 class="tag-line">Get in touch</h5>
-        <h2>shahzebkh@outlook.com</h2>
+        <h2><a href="mailto:shahzebkh@outlook.com" class="text-black">shahzebkh@outlook.com</a></h2>
 
     </section>
 

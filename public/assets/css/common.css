@@ -72,7 +72,7 @@ nav {
 #navbarLinks .accordion-button:hover{
      background: #F1F1F1;
      border-radius: 30px;
-
+     color: rgba(13, 19, 32, 0.50) !important;
 }
 
 section{
@@ -288,7 +288,7 @@ footer .sub-para{
         font-weight: 400;
         line-height: normal;
     }
-    footer .primary-para-black { 
+    footer .primary-para-black {
         color: #000;
         font-family: Space Grotesk;
         font-size: 12px;
@@ -297,16 +297,16 @@ footer .sub-para{
         line-height: normal;
         display: block;
     }
-    
-    
-    
+
+
+
     footer .sub-heading{
         font-weight: 500;
         font-size: 24px;
         line-height: 32px;
         padding-right: 0px;
     }
-    
+
     .ft_social_link  {
         color: var(--heading-text, #0D1320);
         font-family: Space Grotesk;
@@ -325,7 +325,7 @@ footer .sub-para{
         width: 20px;
     }
 
-    
+
 
 }
 

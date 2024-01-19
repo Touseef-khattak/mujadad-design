@@ -114,6 +114,11 @@
         <div class="competitive-img w-100 mb-3">
                 <img class="w-100 d-block d-lg-none" src="{{asset('assets/images/hilal-audit/mobile/heuristic.png')}}" alt="User Flow">
         </div>
+        <div class="container">
+            <p class="text-center audit-last-p">After a successful audit, the client was pleased with the suggestions and recommendations provided and expressed a
+                desire to take further steps towards improving their app. The proposed solution involved a complete redesign,
+                which included revamping the information architecture to enhance content </p>
+        </div>
     </section>
 
 
