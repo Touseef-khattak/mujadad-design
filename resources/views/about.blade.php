@@ -15,7 +15,7 @@
                         <h1>Hey there,I'm Mujadad. 👋</h1>
                         <p class="pt-5">I am a passionate about minimalism and Apple design aesthetics. <br>
                         <br>
-                            UX Designer with proficiency in B2B, B2C product design, design systems, and a proven track record in web and mobile application design, based in UAE</p>
+                            UX Designer with proficiency in B2B, B2C product design, design systems, and a proven track record in web and mobile application design, based in London</p>
                         <br>
                             <p>Apart from design, I spend my free time playing dota 2 which is my favorite game and I am pretty good at it.</p>
                         <p class="abt_rise">I am also Aries (Since 1998)</p>
