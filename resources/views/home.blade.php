@@ -11,7 +11,7 @@
                             User Experience<br/>
                             Designer
                         </h1>
-                        <p class="sub-heading fw-100 text-center">Currently Based in UAE</p>
+                        <p class="sub-heading fw-100 text-center">Currently Based in London</p>
                     </div>
                 </div>
             </div>
