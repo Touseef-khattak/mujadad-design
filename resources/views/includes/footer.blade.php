@@ -3,7 +3,7 @@
         <div class="ball"></div>
         <div class="row border-b-footer px-0">
             <div class="col-md-12  pe-md-0 px-0">
-                <h2 class="sub-heading"><a class="animate_border" href="{{('contact')}}">Let’s work together 🙌</a></h2>
+                <h2 class="sub-heading"><a class="animate_border" href="mailto:shahzebkh@outlook.com">Let’s work together 🙌</a></h2>
                 <a href="mailto:shahzebkh@outlook.com"><h3 class="subpro-head">Get in touch.</h3></a>
             </div>
         </div>
