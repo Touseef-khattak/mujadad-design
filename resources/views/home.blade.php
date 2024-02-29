@@ -32,7 +32,7 @@
                         <div class="d-flex flex-column justify-content-around h-100 px-4 px-lg-5 py-3 py-lg-0 text-block-work">
                             <h5 class="hilal-tag">Hilal Investment</h5>
                             <h2 class="secondary-heading mb-4">Making Halal Investments easy . . .</h2>
-                            <a href="{{url('case-1')}}" class="read-more-hilal d-block d-md-none">Read Case</a>
+                            <a href="{{url('hilal-invest')}}" class="read-more-hilal d-block d-md-none">Read Case</a>
                         </div>
 
                     </div>
@@ -56,7 +56,7 @@
                         <div class="d-flex text-light flex-column justify-content-around h-100  px-4 px-lg-5 py-3 py-lg-0  text-block-work">
                             <h5 class="hilal-tag text-light my-4 my-lg-0">WoW Health</h5>
                             <h2 class="secondary-heading">The Future of <br> Affordable and Accessible <span class="span">Health Services</span></h2>
-                            <a href="{{url('case-2')}}" class="read-more-wow d-block d-md-none">Read Case</a>
+                            <a href="{{url('wow')}}" class="read-more-wow d-block d-md-none">Read Case</a>
                         </div>
                     </div>
                     <div class="col-12 col-lg-8">
